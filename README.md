@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Mad Skills — Better thinking, stories, and writing for AI" width="100%">
+  <img src="./assets/hero.svg" alt="Gen AI Skills — Better thinking, stories, and writing for AI" width="100%">
 </p>
 
 <p align="center">
@@ -29,11 +29,11 @@ Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems. 
 
 ---
 
-## Why Mad Skills
+## Why Gen AI Skills
 
 Generic AI is good at making an answer sound coherent. The harder failure modes come next: the buyer has alternatives, people have incentives, budgets move, stories drift away from their thesis, and polished language can quietly change the thought underneath it.
 
-Mad Skills turns those recurring failure modes into reusable operating instructions rather than one-off prompts.
+Gen AI Skills turns those recurring failure modes into reusable operating instructions rather than one-off prompts.
 
 ## Product Value-Strategy
 
@@ -137,9 +137,9 @@ skills/wordsmith/SKILL.md
 For Agent Skills-compatible coding agents:
 
 ```bash
-npx skills add yoda-sahb/Mad_Skills --skill product-value-strategy
-npx skills add yoda-sahb/Mad_Skills --skill storytelling
-npx skills add yoda-sahb/Mad_Skills --skill wordsmith
+npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill product-value-strategy
+npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill storytelling
+npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill wordsmith
 ```
 
 For ChatGPT Skills or Claude environments that support Agent Skills, use the same skill folders. The core instructions are not forked into separate ChatGPT and Claude versions.
@@ -162,6 +162,6 @@ The implementation remains inspectable for builders, but the repository is desig
 
 The value-strategy foundation in Product Value-Strategy is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
-Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Behavioral Reality Check are implementation extensions and should not be attributed to Porter without independent sourcing.
+Gen AI Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Behavioral Reality Check are implementation extensions and should not be attributed to Porter without independent sourcing.
 
 Storytelling and Wordsmith are independent writing skills.

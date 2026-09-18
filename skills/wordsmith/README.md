@@ -51,7 +51,7 @@ The same core skill is designed for Agent Skills-compatible ChatGPT/OpenAI and C
 For compatible coding agents:
 
 ```bash
-npx skills add yoda-sahb/Mad_Skills --skill wordsmith
+npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill wordsmith
 ```
 
 ## The rule

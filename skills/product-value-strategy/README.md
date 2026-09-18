@@ -85,7 +85,7 @@ The same core skill is designed for Agent Skills-compatible environments rather 
 For compatible coding agents, you can also install from the repository with:
 
 ```bash
-npx skills add yoda-sahb/Mad_Skills --skill product-value-strategy
+npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill product-value-strategy
 ```
 
 ## Why `SKILL.md`?
