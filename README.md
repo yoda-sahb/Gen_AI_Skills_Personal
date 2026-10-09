@@ -16,12 +16,15 @@ Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems. 
 | Skill | Use it when | Core promise |
 |---|---|---|
 | [**Product Value-Strategy**](./skills/product-value-strategy/README.md) | You need to decide what to build, position, price, prioritize, or reject. | **Find where the buyer actually has a reason to choose you.** |
+| [**Root-to-One CEO Brief**](./skills/root-to-one-ceo-brief/README.md) | You have a hard strategic problem and need to find the root, reframe the system, and define the next proof. | **Make the decision clearer before you make the solution bigger.** |
 | [**Storytelling**](./skills/storytelling/README.md) | The idea is strong but the narrative is flat, framework-first, or over-explained. | **Make the audience understand the idea before you name it.** |
 | [**Wordsmith**](./skills/wordsmith/README.md) | The thought is right but the wording is loose, generic, or over-polished. | **Make the sentence better without changing the thought.** |
 
 ### A useful sequence
 
 `Product Value-Strategy → choose the strongest argument`
+
+`Root-to-One CEO Brief → find the root, reframe the system, and define the proof`
 
 `Storytelling → make the argument unfold`
 
@@ -55,6 +58,28 @@ That fourth question is the built-in **Behavioral Reality Check**:
 A strategy is not finished if it only works because someone stops spending, gives up economics, cooperates against their incentives, or lets a saved resource disappear.
 
 [Explore Product Value-Strategy →](./skills/product-value-strategy/README.md)
+
+## Root-to-One CEO Brief
+
+**Make the decision clearer before you make the solution bigger.**
+
+Use it when an executive problem is ambiguous, cross-functional, or likely sitting at the wrong system layer.
+
+Root-to-One CEO Brief works through:
+
+`Unlock → Root → Reframe → Prove → Build to One → Graduate`
+
+The CEO-facing output stays natural: Opportunity, Problem, Reframe, Mental Model, North Star, Visual, How We Learn, Real Example, Experiment, Decision, Build to One, Graduate, and a concise restatement.
+
+Every completed brief requires:
+
+- at least one decision-relevant visual;
+- at least one documented real example;
+- an explicit statement of what the example does **not** prove;
+- the cheapest decisive experiment; and
+- a decision, not just a dashboard or insight.
+
+[Explore Root-to-One CEO Brief →](./skills/root-to-one-ceo-brief/README.md)
 
 ## Storytelling
 
@@ -130,6 +155,7 @@ There is one shared implementation per skill:
 
 ```text
 skills/product-value-strategy/SKILL.md
+skills/root-to-one-ceo-brief/SKILL.md
 skills/storytelling/SKILL.md
 skills/wordsmith/SKILL.md
 ```
@@ -138,6 +164,7 @@ For Agent Skills-compatible coding agents:
 
 ```bash
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill product-value-strategy
+npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill root-to-one-ceo-brief
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill storytelling
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill wordsmith
 ```
@@ -148,7 +175,7 @@ For ChatGPT Skills or Claude environments that support Agent Skills, use the sam
 
 Because that is the shared Agent Skills convention. It is implementation plumbing, not the product name.
 
-The human-facing products are **Product Value-Strategy**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
+The human-facing products are **Product Value-Strategy**, **Root-to-One CEO Brief**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
 
 ## Public design principle
 
@@ -164,4 +191,4 @@ The value-strategy foundation in Product Value-Strategy is an independent operat
 
 Gen AI Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Behavioral Reality Check are implementation extensions and should not be attributed to Porter without independent sourcing.
 
-Storytelling and Wordsmith are independent writing skills.
+Root-to-One CEO Brief is an independent systems-first executive decision method. Storytelling and Wordsmith are independent writing skills.
