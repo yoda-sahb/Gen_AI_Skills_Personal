@@ -62,6 +62,7 @@ Ask: **What would we still need to solve five years from now if no one changed t
 - Distinguish locally correct observations from the globally incorrect assumption.
 - Ask what must remain invariant and what is merely inherited.
 - Produce at least two competing root explanations, plus what would disconfirm each.
+- **Separate customer/context inference from causal identification.** What do we need to know about a person, and what causal effect do we need to estimate? Those can require different evidence.
 
 **Artifact:** one-sentence root hypothesis and causal sketch.  
 **Failure:** renaming the requested solution as a “root cause.”
@@ -91,6 +92,7 @@ For each promising analogy:
   - `OUTSIDE_OBSERVABLE_SYSTEM`: decision-relevant reality is never captured inside the relevant systems.
   - `MIXED` or `UNRESOLVED`: evidence does not support a single classification.
 - For outside-observable problems, separate **unmeasured**, **inferred**, **not presently observable**, and **not ethically/permissibly collectable**. Never promise full observability.
+- Do not infer that an unobservable *individual journey* makes an *aggregate causal effect* unmeasurable. A valid randomized/geo experiment with appropriate outcomes can estimate incrementality without reconstructing private referrals. If measurable outcomes are missing, classify causal identification as unresolved.
 - Challenge the system boundary. If outside, ask whether it can be **legitimately expanded through customer or operator value**; accepting a permanent blind spot may also be the correct choice.
 
 **Artifact:** integrated causal model, unresolved contradictions, candidate boundary change.  
@@ -100,6 +102,8 @@ For each promising analogy:
 
 - Inventory current substrate (people, products, data, customer profile, decision systems, permissions, and technical services). **Existing solutions should shrink the invention.**
 - Define the decision, missing state, interaction, permissions, feedback/outcome, evidence provenance, and owners.
+- Type evidence explicitly: **directly observed / customer-reported / inferred / experimentally estimated / unknown / not permitted**. Do not silently upgrade weak or absent evidence into verified customer truth.
+- Where customers opt in selectively, check participation bias before generalizing. If the expected benefit is data capture for the company but not useful service for the customer, redesign or stop.
 - Generate at least three credible paths: local improvement, system-level change, and boundary-changing mechanism **when appropriate**.
 - Explain why each proposed cross-domain transfer improves the architecture over an untransferred baseline.
 - Keep human architecture explicit: one accountable integrator/decision owner, domain experts, resource owners, sponsor, vetoes, threatened incumbents, graduation path.
@@ -114,6 +118,7 @@ For each promising analogy:
 - Explicitly state what is reused, what is new to the organization, and what novelty is **not established**.
 - Name the load-bearing assumption, cheapest decisive test, control/baseline, primary outcome, guardrails, and kill criterion.
 - When evidence invalidates the mechanism, revise the root or **stop**. Do not add complexity to protect a favorite idea.
+- Separate value-generating **customer context** from **aggregate causal marketing measurement**. Neither is a substitute for the other. A smaller architecture may contain two legitimate evidence loops rather than a grand unified attribution solution.
 
 **Artifact:** mechanism thesis and evidence/kill card.  
 **Failure:** a conceptual diagram relabeled an invention or an experiment relabeled launch.
@@ -174,7 +179,7 @@ For live brainstorming, begin with the shortest useful insight and expand only w
 
 ## Samurai training and evaluation
 
-Use `references/SAMURAI_MISSIONS.md` for staged cases and `references/EVALUATION.md` for the blinded 100-point rubric. Do not use a familiar case already discussed at length as independent proof of spontaneous transfer: it is a **teaching case**, not a blind diagnostic.
+Use `references/SAMURAI_MISSIONS.md` for staged cases and `references/EVALUATION.md` for the *potentially blinded* 100-point rubric. Use `experiments/ATTRIBUTION_STRESS_TEST.md` for a completed single-assistant reasoning stress test and a reproducible **synthetic** measurement counterexample; this is not independent or blinded validation. Do not use a familiar case already discussed at length as independent proof of spontaneous transfer: it is a **teaching case**, not a blind diagnostic.
 
 Use a novel domain for transfer assessment; request timestamps/decision artifacts where useful, and include adversarial evidence that forces reframe. Never imply this skill provides a clinically validated polymathy score.
 
@@ -191,3 +196,5 @@ Use a novel domain for transfer assessment; request timestamps/decision artifact
 - `references/EVALUATION.md` — scoring, blind assessment, attachment penalty, and interpretation.
 - `references/SAMURAI_MISSIONS.md` — progressive fictional consumer-product training missions and withheld reveals.
 - `references/CASE_TRACE.md` — illustrative seven-stage walkthrough with evidence limitations.
+- `experiments/ATTRIBUTION_STRESS_TEST.md` — sequential adversarial check and result; explicitly non-blind.
+- `experiments/attribution_simulation.py` — reproducible synthetic attribution-vs-incrementality example.
