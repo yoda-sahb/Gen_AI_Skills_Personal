@@ -17,6 +17,7 @@ Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems. 
 |---|---|---|
 | [**Product Value-Strategy**](./skills/product-value-strategy/README.md) | You need to decide what to build, position, price, prioritize, or reject. | **Find where the buyer actually has a reason to choose you.** |
 | [**Root-to-One CEO Brief**](./skills/root-to-one-ceo-brief/README.md) | You have a hard strategic problem and need to find the root, reframe the system, and define the next proof. | **Make the decision clearer before you make the solution bigger.** |
+| [**Samurai Skill**](./skills/samurai/README.md) | You need to reframe a cross-domain problem, transfer a mechanism, and design a falsifiable invention. | **Find the hidden boundary. Transfer the useful mechanism. Build what the evidence earns.** |
 | [**Storytelling**](./skills/storytelling/README.md) | The idea is strong but the narrative is flat, framework-first, or over-explained. | **Make the audience understand the idea before you name it.** |
 | [**Wordsmith**](./skills/wordsmith/README.md) | The thought is right but the wording is loose, generic, or over-polished. | **Make the sentence better without changing the thought.** |
 
@@ -81,6 +82,22 @@ Every completed brief requires:
 
 [Explore Root-to-One CEO Brief →](./skills/root-to-one-ceo-brief/README.md)
 
+## Samurai Skill
+
+**Find the hidden boundary. Transfer the useful mechanism. Build what the evidence earns.**
+
+Samurai Skill traces:
+
+`breadth → abstraction → analogy → synthesis → architecture → invention → execution`
+
+Its defining test is **novel transfer**: retrieve a useful mechanism from a different domain, map the causal relationships, reject invalid parts, adapt the rest, and prove the difference against a credible baseline.
+
+The public package includes a staged attribution case, adversarial reveals, a working 100-point rubric, and a reproducible **synthetic** measurement experiment. The worked case illustrates why cleaning connected data cannot reconstruct events no system ever observed, why customer context and causal marketing lift need different evidence, and why consent, bias, and existing platforms can shrink or kill the proposed invention.
+
+**Not a validated personality test, an independent AI benchmark, or a claim of real commercial outcomes.**
+
+[Explore Samurai Skill →](./skills/samurai/README.md)
+
 ## Storytelling
 
 **Make the audience understand the idea before you name it.**
@@ -133,6 +150,14 @@ Use Product Value-Strategy on this decision. Identify what the buyer values, the
 [PASTE DECISION]
 ```
 
+### Samurai Skill
+
+```text
+Use Samurai Skill on this cross-domain problem. Show the inherited framing, possible blind spots, analogical transfer with failure limits, a minimum mechanism, the strongest alternative, and a decisive kill test:
+
+[PASTE PROBLEM]
+```
+
 ### Storytelling
 
 ```text
@@ -156,6 +181,7 @@ There is one shared implementation per skill:
 ```text
 skills/product-value-strategy/SKILL.md
 skills/root-to-one-ceo-brief/SKILL.md
+skills/samurai/SKILL.md
 skills/storytelling/SKILL.md
 skills/wordsmith/SKILL.md
 ```
@@ -165,6 +191,7 @@ For Agent Skills-compatible coding agents:
 ```bash
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill product-value-strategy
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill root-to-one-ceo-brief
+npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill samurai
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill storytelling
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill wordsmith
 ```
@@ -175,7 +202,7 @@ For ChatGPT Skills or Claude environments that support Agent Skills, use the sam
 
 Because that is the shared Agent Skills convention. It is implementation plumbing, not the product name.
 
-The human-facing products are **Product Value-Strategy**, **Root-to-One CEO Brief**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
+The human-facing products are **Product Value-Strategy**, **Root-to-One CEO Brief**, **Samurai Skill**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
 
 ## Public design principle
 
