@@ -1,6 +1,6 @@
 # Samurai Skill — v2.1
 
-**From a broad problem to the right system, through evidence, into something real.**
+**Find the hidden boundary. Transfer the useful mechanism. Build what the evidence earns.**
 
 A working, provider-neutral agent skill for **inventor-architect polymathic reasoning**. Its method follows the chain:
 
@@ -10,7 +10,7 @@ Its signature competency is **novel transfer**: independently retrieve a distant
 
 ## What's new in v2
 
-v1 centered primarily on **inside / between / outside the observable system**. That remains a valuable diagnostic. v2 expands the core method to the full seven-stage reasoning process, makes structural analogy and adaptation explicit, strengthens evidence and falsification gates, and adds blind evaluation rules.
+v1 centered primarily on **inside / between / outside the observable system**. That remains a valuable diagnostic. v2 expands the core method to the full seven-stage reasoning process, makes structural analogy and adaptation explicit, strengthens evidence and falsification gates, and adds a rubric that can be used in blind assessment when independent facilitators and raters are available.
 
 ## Use cases
 
@@ -22,7 +22,7 @@ v1 centered primarily on **inside / between / outside the observable system**. T
 
 ## Example: Consumer-products attribution, as a fictional teaching case
 
-The apparent task is to unify customer, retailer, affiliate, and support data. The deeper question is whether the information needed for an attribution decision **was ever inside the observable system**. A private family recommendation followed by an offline retail purchase may leave no reconstructable event chain. The potential inventive move is to create **useful, permissioned digital interactions** that produce genuinely new customer/product/household state. That does **not** prove the original causal referral path or establish that any related product concept is deployed, validated, or patentable.
+The apparent task is to unify customer, retailer, affiliate, and support data. The deeper question is whether the information needed for an attribution decision **was ever inside the observable system**. A private family recommendation followed by an offline retail purchase may leave no reconstructable event chain. The candidate mechanism separates two independent jobs: **useful, permissioned product experiences** that create future customer goal/action/outcome state, and **credible aggregate marketing experiments** that estimate incremental lift even without an observed private journey. A typed evidence contract prevents directly observed, self-reported, inferred, experimental, and unknown claims from being silently merged. This is a hypothesis, not established novelty, product deployment, or proof of historical customer referrals.
 
 ## Install
 
@@ -42,7 +42,7 @@ Example prompts:
 - "Apply the seven-stage chain; identify candidate analogies and their failure boundaries."
 - "Evaluate the novelty of this cross-domain transfer, not just the analogy."
 - "Run Samurai Mission 1 interactively. Do not show future reveals."
-- "Blind-score this work using the evaluation rubric; distinguish observed from prompted reasoning."
+- "Set up a blinded evaluation using independent raters. Score this work using the rubric and distinguish spontaneous from prompted reasoning."
 
 ## Contents
 
@@ -51,9 +51,11 @@ Example prompts:
 - `references/EVALUATION.md` — 100-point scoring framework; not a clinical test
 - `references/SAMURAI_MISSIONS.md` — five fictional consumer-products mission concepts, staged reveals, instructor rules
 - `references/CASE_TRACE.md` — attribution case traced through all seven stages
+- `experiments/ATTRIBUTION_STRESS_TEST.md` — sequential adversarial reasoning test and provisional invention
+- `experiments/attribution_simulation.py` — seeded synthetic attribution-vs-incrementality test (requires NumPy)
 
 ## Provenance and boundary
 
 This package is a public working method, not independent evidence about any company or person's career. All cases are fictional training scenarios. No specific product, architecture, customer behavior, or organizational failure is asserted as fact.
 
-**Version:** 2.1 public release, 2026-10-16.
+**Version:** 2.1, experiment-hardened working release, 2026-10-16. The published exercise is a single-assistant stress test, not independent validation.
