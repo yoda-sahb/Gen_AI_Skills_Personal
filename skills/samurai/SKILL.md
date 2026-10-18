@@ -3,7 +3,7 @@ name: samurai
 description: Apply an inventor-architect, systems-integrator method to ambiguous problems. Trace breadth → abstraction → analogy → synthesis → architecture → invention → execution; test genuine novel transfer rather than decorative analogy; locate the true system boundary, design falsifiable mechanisms, and move evidence-backed solutions toward real launch. Use for hard cross-domain product, AI/data, customer, operating-model, strategy, and Samurai training cases.
 ---
 
-# Samurai Skill — v2.1
+# Samurai Skill — v2.2
 
 ## Purpose
 
@@ -33,9 +33,10 @@ Do not force every request into the full process. For a narrow known problem, so
 2. **User-supplied vs. spontaneously retrieved analogy.** If the user, facilitator, or case gives the source analogy, do not award spontaneous-retrieval credit.
 3. **Similar surface vs. matching causal mechanism.** A metaphor alone is not a transfer.
 4. **Novel to this team vs. globally novel.** Do not declare world-first invention, patentability, or protected IP without independent prior-art/legal review.
-5. **Proof vs. launch.** A prototype, convincing concept, or experimental result is not a launched product. Preserve `hypothesis → experiment → evidenced mechanism → production → adoption` as separate states.
-6. **Technical system vs. human system.** Incentives, permissions, decision rights, sponsors, and graduation ownership are part of architecture.
-7. **Business invariants vs. inherited constraints.** Customer value, rights, safety, feasibility, and honest measurement constrain the design; the current stack or org chart may not.
+5. **Patent thinking vs. patentability.** For every substantive new mechanism, explicitly investigate what might be patent-relevant and what prior art may defeat it. Do not assert patentability, inventorship, IP ownership, infringement clearance or filing rights.
+6. **Proof vs. launch.** A prototype, convincing concept, or experimental result is not a launched product. Preserve `hypothesis → experiment → evidenced mechanism → production → adoption` as separate states.
+7. **Technical system vs. human system.** Incentives, permissions, decision rights, sponsors, and graduation ownership are part of architecture.
+8. **Business invariants vs. inherited constraints.** Customer value, rights, safety, feasibility, and honest measurement constrain the design; the current stack or org chart may not.
 
 ## Operating method
 
@@ -62,6 +63,7 @@ Ask: **What would we still need to solve five years from now if no one changed t
 - Distinguish locally correct observations from the globally incorrect assumption.
 - Ask what must remain invariant and what is merely inherited.
 - Produce at least two competing root explanations, plus what would disconfirm each.
+- For potentially inventive work, name the technical constraint a narrow claim might need to overcome; an ambition or result is not an inventive mechanism.
 - **Separate customer/context inference from causal identification.** What do we need to know about a person, and what causal effect do we need to estimate? Those can require different evidence.
 
 **Artifact:** one-sentence root hypothesis and causal sketch.  
@@ -101,6 +103,7 @@ For each promising analogy:
 ### Stage 5 — ARCHITECTURE: choose the smallest coherent mechanism
 
 - Inventory current substrate (people, products, data, customer profile, decision systems, permissions, and technical services). **Existing solutions should shrink the invention.**
+- For a proposed new mechanism, challenge likely prior art (patents, papers, deployed products and common technique combinations) before treating architecture as an invention. Record when searching is unavailable.
 - Define the decision, missing state, interaction, permissions, feedback/outcome, evidence provenance, and owners.
 - Type evidence explicitly: **directly observed / customer-reported / inferred / experimentally estimated / unknown / not permitted**. Do not silently upgrade weak or absent evidence into verified customer truth.
 - Where customers opt in selectively, check participation bias before generalizing. If the expected benefit is data capture for the company but not useful service for the customer, redesign or stop.
@@ -116,6 +119,7 @@ For each promising analogy:
 - State the actual new mechanism in plain language: **what will now happen that cannot happen adequately under the baseline?**
 - Identify customer/buyer value separately from proprietary data or organizational advantage.
 - Explicitly state what is reused, what is new to the organization, and what novelty is **not established**.
+- **MANDATORY PATENT DISCOVERY GATE:** For every substantive inventive mechanism, proactively identify the narrow possible claim kernel, closest known prior-art comparator, technical difference, implementation alternatives and design-arounds, counterarguments (obviousness/eligibility), evidence gaps and rights/disclosure limitations. Assign one provisional disposition following `references/PATENT_DISCOVERY.md`. Do not wait for the user to ask about patents; do not force a patent concept when there is no differential mechanism.
 - Name the load-bearing assumption, cheapest decisive test, control/baseline, primary outcome, guardrails, and kill criterion.
 - When evidence invalidates the mechanism, revise the root or **stop**. Do not add complexity to protect a favorite idea.
 - Separate value-generating **customer context** from **aggregate causal marketing measurement**. Neither is a substitute for the other. A smaller architecture may contain two legitimate evidence loops rather than a grand unified attribution solution.
@@ -129,9 +133,14 @@ For each promising analogy:
 - Connect proof to a real outcome, deployment, adoption, and feedback instrumentation.
 - Capture learning in reusable interfaces, standards, models, decision logic, or operating methods.
 - Graduate when the principal remaining problem is scale, with a named receiving owner; do not call handoff successful without acceptance/readback.
+- Before public disclosure of a potentially patent-sensitive detail, flag unknown ownership/assignment and confidentiality; refer filing or external release to authorized people or counsel. Do not assume the assistant can confer rights.
 
 **Artifact:** build-to-one plan and graduation contract.  
 **Failure:** stopping at a recommendation, pilot, or unowned prototype.
+
+## Patent Discovery Gate (mandatory when an inventive mechanism exists)
+
+Run `references/PATENT_DISCOVERY.md` for every substantive new technical, product, or systems mechanism. Return one outcome: `CANDIDATE`, `PRIOR_ART_CONFLICT`, `INSUFFICIENT_DIFFERENTIATION`, or `REVIEW_REQUIRED`; return `NOT_APPLICABLE` for non-inventive tasks. Identify the narrow mechanism, closest known comparator or `SEARCH_NOT_RUN`, risks, and next action. Outcomes are *screening hypotheses*, never legal patent opinions. A missing prior-art search cannot support verified novelty; use `REVIEW_REQUIRED` when an otherwise credible mechanism lacks essential checks.
 
 ## Novel-transfer gate (mandatory for cross-domain claims)
 
@@ -171,9 +180,10 @@ For substantive applications provide, with proportional detail:
 5. **Novel-transfer card** — source → causal mechanism → mapping → limits → adapted mechanism → improvement, and whether retrieval was spontaneous.
 6. **Alternative mechanisms and existing-substrate shrink.**
 7. **Kill test**, assumptions, outcome metric and guardrails.
-8. **Human-system architecture**, execution and graduation path.
-9. **Final decision**: `ADVANCE / EXPERIMENT / NARROW / REFRAME / NO_TRANSFER / STOP`.
-10. **Evidence classification**: proposed idea, experiment, achieved outcome, and production/launch never conflated.
+8. **Patent-discovery screen**: provisional outcome or `NOT_APPLICABLE`, candidate technical differential, prior-art check status, rights/disclosure limits, next action.
+9. **Human-system architecture**, execution and graduation path.
+10. **Final decision**: `ADVANCE / EXPERIMENT / NARROW / REFRAME / NO_TRANSFER / STOP`.
+11. **Evidence classification**: proposed idea, experiment, achieved outcome, and production/launch never conflated.
 
 For live brainstorming, begin with the shortest useful insight and expand only when the user wants a full trace. For training, **do not disclose future case reveals before the trainee commits each round**.
 
@@ -193,6 +203,7 @@ Use a novel domain for transfer assessment; request timestamps/decision artifact
 ## Reference routing
 
 - `references/NOVEL_TRANSFER.md` — required structural transfer protocol.
+- `references/PATENT_DISCOVERY.md` — mandatory patent thought and prior-art challenge, not legal advice.
 - `references/EVALUATION.md` — scoring, blind assessment, attachment penalty, and interpretation.
 - `references/SAMURAI_MISSIONS.md` — progressive fictional consumer-product training missions and withheld reveals.
 - `references/CASE_TRACE.md` — illustrative seven-stage walkthrough with evidence limitations.
