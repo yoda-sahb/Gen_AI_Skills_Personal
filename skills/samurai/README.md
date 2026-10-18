@@ -1,4 +1,4 @@
-# Samurai Skill — v2.1
+# Samurai Skill — v2.2
 
 **Find the hidden boundary. Transfer the useful mechanism. Build what the evidence earns.**
 
@@ -7,6 +7,10 @@ A working, provider-neutral agent skill for **inventor-architect polymathic reas
 `breadth → abstraction → analogy → synthesis → architecture → invention → execution`
 
 Its signature competency is **novel transfer**: independently retrieve a distant-domain idea, extract its causal mechanism, map it carefully, reject what does not transfer, recombine what does, and demonstrate how it changes the solution.
+
+## What's new in v2.2
+
+Samurai now **forces patent-oriented invention discovery** whenever a substantive new mechanism emerges. Its mandatory screen identifies a narrow technical differential, existing alternatives and prior-art challenges, design-arounds, confidentiality/ownership risks, and an explicit provisional outcome. It is not a patentability determination and does not recommend patenting every strategy.
 
 ## What's new in v2
 
@@ -46,7 +50,8 @@ Example prompts:
 
 ## Contents
 
-- `SKILL.md` — operating logic, 7-stage method, response contract and guardrails
+- `SKILL.md` — operating logic, 7-stage method, mandatory patent screen, response contract and guardrails
+- `references/PATENT_DISCOVERY.md` — prior-art challenge and invention-discovery decision card
 - `references/NOVEL_TRANSFER.md` — structural transfer test and worked comparison
 - `references/EVALUATION.md` — 100-point scoring framework; not a clinical test
 - `references/SAMURAI_MISSIONS.md` — five fictional consumer-products mission concepts, staged reveals, instructor rules
@@ -58,4 +63,4 @@ Example prompts:
 
 This package is a public working method, not independent evidence about any company or person's career. All cases are fictional training scenarios. No specific product, architecture, customer behavior, or organizational failure is asserted as fact.
 
-**Version:** 2.1, experiment-hardened working release, 2026-10-16. The published exercise is a single-assistant stress test, not independent validation.
+**Version:** 2.2, mandatory patent-discovery gate added 2026-10-17; prior v2.1 release 2026-10-16. The published exercise is a single-assistant stress test, not independent validation.
