@@ -1,4 +1,4 @@
-# Samurai v2.4-beta — experimental release
+# Samurai v2.5-beta — experimental release
 
 **Boundary-first reasoning: challenge the system boundary before committing to an architecture.**
 
@@ -20,6 +20,13 @@ If the installer cannot find the nested skill, copy `skills/samurai-beta` into y
 - `BOUNDARY_UNRESOLVED` prevents unsupported architectural certainty; `BOUNDARY_CLEAR_LOCAL` bypasses needless process for local known problems.
 - Stages 5 and 6 retain prior-art comparison and mandatory provisional patent screening for credible technical mechanisms.
 
+## New in v2.5-beta
+
+- Adds a **context-gated Christensen-inspired disruption/resource-allocation test** for emerging business models rather than classifying every AI change as disruption.
+- Adds **Innovation Engine Audit routing** when the problem involves repeated learning, knowledge transfer, organizational incentives, or a proposed innovation organization.
+- Neither module runs for ordinary known defects or creator payment reconciliation without evidence of broader failure. No unsupported company-culture scores.
+- See `references/CONTEXT_GATED_INNOVATION.md` and `experiments/V25_ROUTING_REGRESSION.md`. Stage and boundary gates are unchanged.
+
 ## Evaluation status
 
 **Not independently validated.** The included five synthetic test fixtures support a *protocol-level dry run* by the same assistant that proposed this beta. They do **not** demonstrate greater model capability or a blind v2.2-versus-beta performance improvement.
@@ -28,4 +35,4 @@ See `experiments/BOUNDARY_GATE_DRY_RUN.md` and `experiments/boundary_suite.json`
 
 All company-specific claims, human career evidence, invention rights and commercial outcomes remain outside this public methodology.
 
-**Release:** v2.4-beta, 2026-10-18. **Last stable:** v2.2, 2026-10-17.
+**Release:** v2.5-beta, 2026-10-19. **Last stable:** v2.2, 2026-10-17.

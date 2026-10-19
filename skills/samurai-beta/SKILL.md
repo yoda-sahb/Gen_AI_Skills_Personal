@@ -3,7 +3,7 @@ name: samurai-beta
 description: Apply an inventor-architect, systems-integrator method to ambiguous problems. Trace breadth → abstraction → analogy → synthesis → architecture → invention → execution; test genuine novel transfer rather than decorative analogy; locate the true system boundary, design falsifiable mechanisms, and move evidence-backed solutions toward real launch. Use for hard cross-domain product, AI/data, customer, operating-model, strategy, and Samurai training cases.
 ---
 
-# Samurai Skill — v2.4-beta
+# Samurai Skill — v2.5-beta
 
 ## Purpose
 
@@ -79,6 +79,16 @@ Give each check a `PASS`, `UNRESOLVED`, or `NOT_APPLICABLE` evidence status. If 
 
 **Artifact:** boundary-and-obligation map and test/stop card.  
 **Failure:** a compelling analogy or system diagram closes over missing economic reality.
+
+### Optional context-gated challenges — after the boundary check
+
+When the case provides credible triggers, consult `references/CONTEXT_GATED_INNOVATION.md`:
+
+- **Disruption/resource allocation:** For genuinely different customers, emerging or lower-end markets, and business-model/metric conflicts, test the Christensen-style incumbent allocation mechanism. Never assume every new AI or digital offering is disruptive.
+- **Innovation engine audit:** For recurring learning loss, inability to transfer inventions across teams, incentive conflicts, or building a repeatable invention organization, inspect evidenced learning continuity, truth flow, reuse, governance, and organizational patience. Do not infer a broken culture or manufacture a score from public reports.
+- **No trigger:** Use neither module; ordinary local repairs and creator contractual settlement should remain straightforward. Neither module bypasses the mandatory boundary challenge, prior-art discipline, or the right to STOP.
+
+These modules challenge interpretation and operating economics; they do **not** add mandatory Samurai stages or make a new organization the default answer.
 
 ### Stage 3 — ANALOGY: retrieve and inspect distant mechanisms
 
@@ -220,6 +230,7 @@ Use a novel domain for transfer assessment; request timestamps/decision artifact
 ## Reference routing
 
 - `references/BOUNDARY_CHALLENGE.md` — mandatory pre-architecture boundary, commitments, counterevidence and decision-level audit.
+- `references/CONTEXT_GATED_INNOVATION.md` — optional Christensen-inspired resource-allocation and Innovation Engine Audit routing.
 - `references/NOVEL_TRANSFER.md` — required structural transfer protocol.
 - `references/PATENT_DISCOVERY.md` — mandatory patent thought and prior-art challenge, not legal advice.
 - `references/EVALUATION.md` — scoring, blind assessment, attachment penalty, and interpretation.
