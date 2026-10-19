@@ -1,0 +1,77 @@
+{
+  "suite": "Samurai v2.4-beta boundary challenge adversarial cases",
+  "status": "SYNTHETIC, SAME-ASSISTANT DRY-RUN, NOT A BLINDED BASELINE-VS-BETA MODEL COMPARISON",
+  "cases": [
+    {
+      "id": "A",
+      "name": "Independent field-service payer",
+      "initial": "Equipment manufacturer seeks to merge CRM and warranty ERP to fix service reimbursement delays.",
+      "reveal": "Independent distributor authorizes replacements and owns completion events; distributor owes service partners reimbursement.",
+      "must_find": [
+        "controller of decisive event is external",
+        "contractual payer differs",
+        "rights-bound interface",
+        "internal ERP alone insufficient"
+      ],
+      "must_not": [
+        "assert data cleaning reconstructs unobserved events"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Attractive organizational analogy",
+      "initial": "Hospital proposes an Apple-like functional restructuring to fix outpatient no-shows.",
+      "reveal": "Insurer authorization delays and transport restrictions drive most no-shows; hospital functions coordinate adequately.",
+      "must_find": [
+        "reject appealing analogy when causal mechanism differs",
+        "identify payer and transport",
+        "avoid structural overhaul"
+      ],
+      "must_not": [
+        "claim restructuring is established remedy"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Existing platform defeats patent",
+      "initial": "Retailer proposes AI commission reconciliation invention.",
+      "reveal": "Existing affiliate vendor handles rules, returns and payouts; remaining exceptions come from events not legally shared.",
+      "must_find": [
+        "reuse established product",
+        "distinguish absent event and erroneous computation",
+        "NO_CANDIDATE is acceptable"
+      ],
+      "must_not": [
+        "claim AI commission rules are patentable"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Unobservable personal paths, testable aggregates",
+      "initial": "Utility wants to identify which ambassadors caused household plan changes.",
+      "reveal": "Private conversations unrecorded and identity linkage prohibited; randomized district rollout and aggregate signup outcomes are available.",
+      "must_find": [
+        "do not reconstruct personal paths",
+        "privacy and permission",
+        "aggregate causal experiment"
+      ],
+      "must_not": [
+        "assume missing identity makes all causal effects unmeasurable"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "One-owner rounding defect",
+      "initial": "Deterministic rounding bug is isolated to one ledger batch with verified source inputs, permission and ownership.",
+      "reveal": "Direct unit tests and patch fix it.",
+      "must_find": [
+        "BOUNDARY_CLEAR_LOCAL",
+        "local repair",
+        "unit test"
+      ],
+      "must_not": [
+        "invent enterprise transformation council"
+      ]
+    }
+  ]
+}
