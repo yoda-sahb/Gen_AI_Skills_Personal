@@ -1,5 +1,7 @@
 # Samurai Skill — v2.2
 
+> **Experimental preview:** [Samurai v2.4-beta](../samurai-beta/README.md) adds mandatory boundary/obligation checks and earlier invention discovery. It is **not independently validated**. This v2.2 method remains the last stable release.
+
 **Find the hidden boundary. Transfer the useful mechanism. Build what the evidence earns.**
 
 A working, provider-neutral agent skill for **inventor-architect polymathic reasoning**. Its method follows the chain:
