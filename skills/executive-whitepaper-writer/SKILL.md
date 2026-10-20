@@ -3,7 +3,7 @@ name: executive-whitepaper-writer
 description: Write or revise cohesive executive white papers, strategy papers, board papers, and research-backed business analyses in direct, neutral, evidence-disciplined prose. Use when the user asks for a consulting-quality whitepaper, coherent strategic narrative, HBR-like analytical article, substantive executive report, or a rewrite of fragmented research into a single argument. Preserve the user's thesis and verified facts; distinguish hypotheses from findings; avoid personal opinions, slogans, jargon and list-driven exposition.
 ---
 
-# Executive Whitepaper Writer — v1.0
+# Executive Whitepaper Writer — v1.1
 
 ## Job
 
@@ -11,7 +11,7 @@ Turn research, working notes, hypotheses, and executive thinking into **a single
 
 The writing should be sophisticated because the reasoning is sound, **not because the language sounds important**. This is a document-writing and editorial skill, not a research method or a framework for inventing the underlying business strategy.
 
-**Default voice:** objective, direct, measured, natural American English. Prefer plain language and well-linked paragraphs.
+**Default voice:** objective, direct, measured, natural American English. Prefer plain language and well-linked paragraphs. **When the author supplies a preferred structure or representative passage, the author’s strategic framing and editorial voice take precedence over this default.** Edit for accuracy and intelligibility without turning an original thesis into generic consultant prose.
 
 **Default artifact:** a readable paper with a clear thesis, connected prose, necessary evidence, tested alternatives, and a conclusion justified by the body. Do not expose the preparatory framework, checklists, or outline unless requested.
 
@@ -36,11 +36,42 @@ For a short story, use the repository's \`storytelling\` skill; for sentence-onl
 7. **Confidentiality and ownership.** Preserve source rights, trade secrets, confidential architecture, unreconciled personal evidence and unpublished IP. Do not infer inventor identity, patent status, permission to publish or an implementation from research notes.
 8. **Do not hide disagreement or missing evidence.** Address the strongest plausible alternative explanation where material; identify what would change the recommendation.
 
+## Author-native editorial mode
+
+**Trigger:** The user supplies an opening, outline, revised paragraph, critique of earlier drafts, preferred headings, or a writing sample. Treat those as the primary specification for *how the argument is presented*. Do not treat an assistant's earlier draft as the source of stylistic authority when the author has corrected it.
+
+### Preserve what makes the author's argument distinctive
+
+1. **Follow the author's architecture.** Retain the chosen title/subtitle function, executive perspective, causal sequence, priority order, named pillars and intended reader. Do not replace a user-authored three-priority argument with a generic context/problem/options/recommendation template. Reorder only to resolve an actual contradiction or on request.
+2. **Retain the decisive proposition.** Improve wording without quietly changing an explicit thesis into a vague opportunity to investigate. Distinguish an assertive strategic recommendation from an unverified factual diagnosis; a paper may recommend a discipline without claiming the company lacks it.
+3. **Keep the concrete machinery.** Use the domain's real mechanisms, participants and dependencies. For example: exposure records, retailer transactions, platform attribution, contractual payouts, finance reconciliation, product design, inventory, service and connected-device signals. Don't replace operational specificity with broad terms such as "digital transformation" or "enterprise synergies."
+4. **Preserve author-defined vocabulary, but define it.** Terms such as *decision architecture*, *decision-architecture debt*, *horizontal and vertical integration*, and a proposed *third axis* may be legitimate analytical constructs. Keep a useful term and explain what it does; do not multiply labels or present a working concept as an established industry standard, organizational unit, or existing product.
+5. **Retain a coherent progression across scales.** For a cross-functional argument, show how a commercial decision relates to economics, technical contracts, internal functions, consumer/product experience and outside partners. Preserve the user's intended distinction among integration, digital-product invention and ecosystem influence when they serve different roles.
+6. **Edit the author's prose, not the author's ambition.** Correct grammar, remove redundancies and repair unsupported specifics. Do not remove technical specificity, the underlying tension, or a proposed strategic horizon simply because it is assertive. Qualify exactly the disputed assertion instead of diluting every sentence.
+
+### Avoid the LinkedIn-article failure mode
+
+- Do not default to a dramatic anecdote, inspirational hook, cascade of one-sentence paragraphs, rhetorical questions, bolded epigrams, or repeated "not X, but Y" reversals.
+- Do not close every section with a portable slogan or restate the thesis as a punchline. An executive paper should develop an argument, not a sequence of social posts.
+- Prefer sustained analytical paragraphs in which the operating mechanism and its economic implication are explicit. Use numbered strategic priorities when the author chose them, and explain each in real prose.
+- A compact executive perspective may contain a clear proposal, a concrete illustration, the structural constraint, the risk or mechanism, and the strategic response. Do not force that exact sequence when the user provided another.
+- Narrative nonfiction techniques are optional and must be explicitly requested. "HBR/BCG/McKinsey quality" refers to rigor and readable structure, not imitation of named writers or formulaic consultancy styling.
+
+### Preserve evidence without defanging the argument
+
+Distinguish: reported business scale versus proof of causation; vendor-attributed events versus actual transactions and contractual obligations; accounting outcomes versus incremental contribution; data that are unavailable versus data no system is entitled to observe; technical-debt hypotheses versus verified architecture defects; modeled scores and scenarios versus measured results. Keep estimated modernization horizons as estimates, and distinguish public investments from claims about their internal effectiveness.
+
+Use **precise, local qualifiers**. A strong claim can be a recommendation or hypothesis. The edit should state that epistemic status once where needed, not introduce a hedge into every clause.
+
+### Multi-artifact assignments
+
+When asked for a one-pager, role specification and white paper, each artifact should have a different job. The one-pager carries the proposition and executive relevance; the role specification defines outcomes, scope, rights and interfaces; the white paper contains the mechanism, factual record, countercase, supporting exhibits and source notes. Do not copy the same research apparatus into every artifact or make the white paper a disguised role pitch.
+
 ## Workflow
 
 ### 0. Lock the assignment
 
-Identify the actual audience, decision/use case, desired length, source set, existing approved thesis, and confidentiality rules. Use reasonable defaults if unspecified; do not burden the user with a form. An approved thesis remains intact unless the user asks for a new one or evidence makes its wording unsupportable.
+Identify the actual audience, decision/use case, desired length, source set, existing approved thesis, and confidentiality rules. **If the author has provided a draft or sample, first extract its title logic, executive-perspective sequence, named priorities, argument density and preferred terminology.** Use reasonable defaults only for unspecified dimensions; do not burden the user with a form. An approved thesis remains intact unless the user asks for a new one or evidence makes its wording unsupportable.
 
 Write one private sentence answering: **What should the reader understand or decide by the end?**
 
@@ -72,7 +103,7 @@ For each section ask: **What must the reader understand here to accept the next 
 
 Lead with the actual business situation and relevant tension. Use ordinary terms before introducing a specialized name. Develop each paragraph as an explanatory step: claim, relevant evidence, explanation, consequence, then a natural transition to the next idea.
 
-Default to paragraphs. Use headings only when the argument changes direction. Use tables, bullets and exhibits **only if they convey relationships or comparisons more clearly than prose**. Do not turn a 12-page paper into 25 disconnected cards.
+Default to paragraphs. Use headings when the argument changes direction **or when the author explicitly organized the paper by named strategic priorities**. Use tables, bullets and exhibits **only if they convey relationships or comparisons more clearly than prose**. Do not turn a 12-page paper into 25 disconnected cards.
 
 Prefer concrete nouns, active verbs, dates, named entities, clear units and explicit causal qualifiers. Avoid excessive scene-setting, false contrasts, repeated thesis statements and multi-adjective claims.
 
@@ -106,7 +137,7 @@ If important support is missing, state the uncertainty **within the paper** at t
 
 ## Default paper architecture
 
-Use these as conceptual functions, **not mandatory visible headings**:
+Use these as conceptual functions, **not mandatory visible headings**. **If the author supplied a coherent structure, preserve it rather than imposing this default:**
 
 \`Context → The decision problem → Evidence and mechanism → What current approaches explain / miss → Options and trade-offs → Recommendation or proof plan → Conclusion\`
 
@@ -137,6 +168,8 @@ Before delivery, check:
 6. Would the paper sound like a competent executive explaining the issue plainly?
 7. Is there any instance of "I think," "we believe," inflated claim language or needless jargon?
 8. Are source citations, confidentiality and metric classes intact?
+9. If the author supplied a structure or excerpt, does the revision preserve its strategic ambition, sequencing and distinctive operational examples?
+10. Would any paragraph read like a detachable LinkedIn post, a generic consulting slogan, or a job pitch when the requested output is a research white paper?
 
 If any critical check fails, revise before delivery. Do not report "passed" solely because the check is described. A sample exercise is in \`experiments/SHARKNINJA_STYLE_CHECK.md\` and is **not** proof of independent writing-quality gains.
 
