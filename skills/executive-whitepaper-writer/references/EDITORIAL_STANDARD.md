@@ -111,3 +111,23 @@ A credible recommendation can remain bold: "Treat decision architecture as a con
 ### Final author-voice acceptance test
 
 Compare the revised paper to the author's latest supplied example, not merely to the writer's first draft. Confirm: same thesis, same scope, same strategic priorities, same concrete mechanisms, no generic filler substituted for technical insight, no invented metrics, and no staccato thought-leadership cadence. If the writing is more polished but changes what the author is arguing, it fails.
+
+
+## Active voice as the editorial default
+
+Give each consequential claim an identifiable actor and action. Prefer "Advertising partners report media exposures, retailers record transactions, and finance reconciles contractual obligations and economic outcomes" over passive constructions that obscure responsibility.
+
+| Less effective | More effective |
+| --- | --- |
+| "Financial treatment is established through reconciliation." | "Finance reconciles available evidence against the company's financial records and contractual obligations." |
+| "A common operating logic is defined by decision architecture." | "Decision architecture defines a common operating logic across business functions and external partners." |
+| "The next decision is informed by feedback." | "Measured outcomes inform the next decision." |
+| "The establishment of enterprise alignment enables growth." | "Commercial, technology and finance leaders align requirements so existing investments support growth." |
+
+The examples demonstrate **grammar and specificity**, not independently verified facts about a named company. Preserve the status of any case-specific assertion.
+
+Use passive voice when its subject matters more than the actor or the actor is unknown; never invent ownership to meet a stylistic preference. Avoid nominalizations that bury action in nouns. When checking sentences, ask: **Who acts? What do they change? What evidence authorizes the action? What business outcome follows?**
+
+### Separate Purpose from Executive Summary
+
+A Purpose section can define the proposed discipline succinctly using the author's direct construction, such as "This paper proposes an end-to-end decision architecture." An Executive Summary should then establish the concrete operating challenge, supporting facts and limitations, architectural implications, and strategic priorities. Duplicating the Purpose is a structural defect, not stronger emphasis.
