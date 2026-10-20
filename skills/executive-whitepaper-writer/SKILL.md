@@ -84,6 +84,13 @@ When asked for a one-pager, role specification and white paper, each artifact sh
 
 When the author uses both headings, give them **distinct functions**. The **Purpose** states what the paper proposes, how it defines the discipline and which question it addresses. The **Executive Summary** develops the business situation, the evidence and asymmetry, the risk mechanism, the strategic priorities and their implications. **Do not repeat the same definition or opening paragraph in both sections.** Retain an explicit "This paper proposes..." in the Purpose if that is the author's chosen active construction.
 
+
+## Active voice and agency
+
+Use active voice by default. Name the actor and a direct verb wherever the evidence permits: who defines the decision, provides evidence, authorizes an action, executes it, reconciles the economics, and uses feedback. For example, prefer 'Retailers record transactions and finance reconciles economic outcomes' to 'Transactions are recorded and outcomes are reconciled.' Avoid nominalizations that bury action in nouns. Keep passive voice where the actor is unknown, irrelevant, protected, or where the affected object deserves emphasis. Never invent ownership to force active syntax. Preserve the author's active constructions rather than translating them into impersonal abstractions.
+
+When both Purpose and Executive Summary appear, give them separate jobs: Purpose defines the proposal and its scope; Executive Summary develops the operating problem, evidence, implications, and priorities. Do not repeat the same opening definition in both.
+
 ## Workflow
 
 ### 0. Lock the assignment
