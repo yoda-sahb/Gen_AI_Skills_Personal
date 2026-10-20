@@ -32,3 +32,22 @@ A working thesis proposes that SharkNinja's investments in digital media, creato
 - It should preserve the original user thesis without adding unsupported new facts.
 
 This case is already familiar from the conversation and therefore cannot demonstrate independent writing-quality improvement. Future testing should use held-out sources, different industries, independently rated revisions, evidence-error counts, and coherence assessments.
+
+
+## Author-structure preservation fixture (style only)
+
+**Situation:** A researcher provides a draft organized as executive perspective followed by three named strategic priorities, integrating commercial decisions with product, operations, accounting and external technology providers. The draft distinguishes local execution success from a proposed cross-system decision risk.
+
+**Bad revision:** Converts the thesis into a generic "digital transformation" article with a dramatic opening, multiple rhetorical questions, five new pillars, and a final call to create a new team. It also treats modeled capacity trajectories as observed results.
+
+**Target behavior:** Preserve the executive-perspective opening and the author's three priorities. Explain one concrete multi-party decision path (for example: media exposure → retail transaction → attribution claims → contractual obligations → finance reconciliation), then specify the distinct enterprise decision the separate systems cannot themselves resolve. Keep the systemic deficit hypothetical until inspected. Articulate horizontal, vertical and external dependencies in sustained paragraphs, and reserve staffing or structural recommendations for separately justified sections.
+
+**Manual checks:**
+- Priority names/order remain recognizable unless the author requested reordering.
+- No user-defined strategic dimension is omitted or silently narrowed.
+- Opening is a substantive proposal plus mechanism, not a promotional pitch.
+- At least one operational example retains its real evidence/rights/economic boundaries.
+- No LinkedIn-style hook, aphoristic conclusion, or unsubstantiated company diagnosis.
+- No scores, implied year-by-year trajectories, or causal conclusions manufactured from illustrative examples.
+
+This is a hand-authored regression fixture, not a measured writing-performance benchmark or independent evidence of the company described.
