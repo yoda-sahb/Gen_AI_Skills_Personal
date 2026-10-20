@@ -62,3 +62,22 @@ This is a hand-authored regression fixture, not a measured writing-performance b
 **Manual checks:** Sentences identify agents where evidence permits; avoid unnecessary passive voice and abstract nominalizations; no duplicated opening argument across Purpose and Executive Summary; keep the author's scope and terminology; preserve uncertainty when agency or effectiveness is not known.
 
 This is an editorial regression example, not an independently validated writing improvement or SharkNinja research finding.
+
+
+## Decisive-voice regression fixture (style, not company fact)
+
+**Author instruction:** Stop weakening the core argument with "may be". State the velocity-asymmetry thesis in active voice while retaining evidence integrity.
+
+**Weak draft:** "SharkNinja's commercial ambitions may be advancing faster than its underlying technology ecosystem can support them. There could potentially be some decision architecture debt."
+
+**Expected edit:** "SharkNinja faces a familiar hypergrowth technology challenge: its commercial strategy is accelerating faster than the underlying technology ecosystem can adapt." Treat this as the author's **strategic diagnosis**, not independently verified internal evidence. If needed for publication, identify that status once in an appropriate source or methods note instead of interrupting every sentence with hedges.
+
+**Manual assertions:**
+- The main thesis uses direct, declarative syntax and retains the author's level of conviction.
+- Factual statements about platform rights, accounting and company disclosures retain proper evidence and limits.
+- A company-specific velocity gap is not described as a measured finding without supporting comparative evidence.
+- No unneeded "may", "could", "potentially" or "it appears that" in the executive-summary thesis or mechanism.
+- A qualifier remains wherever an actual causal, financial, contractual or operating-state uncertainty requires one.
+- The paper does not retreat into generic investigation language or an unsupported assertion of corporate failure.
+
+This is a writing-style fixture, not independent validation of SharkNinja's operating state or the skill's performance.
