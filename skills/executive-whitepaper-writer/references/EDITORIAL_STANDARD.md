@@ -131,3 +131,10 @@ Use passive voice when its subject matters more than the actor or the actor is u
 ### Separate Purpose from Executive Summary
 
 A Purpose section can define the proposed discipline succinctly using the author's direct construction, such as "This paper proposes an end-to-end decision architecture." An Executive Summary should then establish the concrete operating challenge, supporting facts and limitations, architectural implications, and strategic priorities. Duplicating the Purpose is a structural defect, not stronger emphasis.
+
+
+## Active voice editorial audit
+
+Use active subjects and finite verbs where the supporting evidence identifies the actor. Prefer 'Advertising partners report media exposures, retailers record transactions, and finance reconciles available evidence' over 'Exposures are reported, transactions are recorded, and evidence is reconciled.' Replace abstract nominalizations with actions. Name who defines decisions, exercises authority, executes changes, records outcomes and adjusts the next decision. Do not invent the responsible party when the source does not establish it; in such cases a passive sentence or explicit uncertainty is more accurate. Active grammar never authorizes an unverified factual diagnosis.
+
+When a paper includes both Purpose and Executive Summary, edit them for distinct functions rather than repeating the opening. Purpose defines the strategic proposal and scope. Executive Summary presents the actual operating problem, relevant evidence, qualifications, implications and priorities. Preserve the author's headings, terminology and executive-facing tone.
