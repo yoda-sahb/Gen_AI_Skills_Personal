@@ -85,3 +85,29 @@ A reviewer should be able to answer:
 8. Would a real executive use these words in a serious discussion?
 
 Assess each question as supported, needs revision, or unverifiable. Do not invent a psychometrically validated score or claim that one self-edited example proves better performance.
+
+
+## Author-led white paper editing: additional regression checks
+
+An author's draft is not a defective template to be replaced by a standardized framework. Capture the author's intended reader, argument order, explicit proposal, and named priorities before revising. Preserve the scope of the claim while correcting factual overreach. If the author says a technology strategy should span commercial, physical-product and financial decisions, a rewrite that narrows the thesis to media analytics is a substantive failure, not a style improvement.
+
+### Distinguish stylistic failure modes
+
+| Failure | Why it fails | Revision principle |
+| --- | --- | --- |
+| "Every team is winning. But is the enterprise?" | Detachable punchline rather than an operating argument | Explain the distinct mandate of each team and where its outputs must reconcile |
+| "The future is a connected intelligence fabric." | Unspecified system, owner and value mechanism | Name the decision, evidence, authority, operating interfaces, economics and feedback |
+| Four consecutive one-sentence paragraphs | Feels like a social article or keynote | Combine into a developed causal paragraph |
+| "The company has no digital feedback loop" | Treats uninspected company systems as absent | State the required operating capability and the evidence needed to assess existing implementations |
+| "AI can't close the gap" | Unqualified claim about a complex capability | Explain which constraints AI can accelerate and which contractual, semantic or ownership constraints it cannot independently remove |
+| Replacing three user-defined priorities with generic consulting pillars | Discards the author's organizing thought | Preserve those priorities, then edit the dependencies among them |
+
+### Executive perspective pattern when the author specifies it
+
+A research white paper may open with a direct strategic proposal rather than a literature review or anecdote. Develop the case through (a) definition of the strategic discipline, (b) concrete business mechanics, (c) accelerating requirements and structural dependencies, (d) the proposed causal risk, (e) acknowledgment of existing capabilities, and (f) integrated priorities. This is an example **only**: the author's supplied ordering takes precedence. Headings such as "Executive Perspective" and "Priority 1" are legitimate if they organize an actual argument rather than replace it.
+
+A credible recommendation can remain bold: "Treat decision architecture as a continuing strategic responsibility." A statement of empirical deficiency requires different evidence: "The company lacks end-to-end decision architecture" must not be written as established without inspection. Do not let a factual qualification weaken a strategic proposal unnecessarily.
+
+### Final author-voice acceptance test
+
+Compare the revised paper to the author's latest supplied example, not merely to the writer's first draft. Confirm: same thesis, same scope, same strategic priorities, same concrete mechanisms, no generic filler substituted for technical insight, no invented metrics, and no staccato thought-leadership cadence. If the writing is more polished but changes what the author is arguing, it fails.
