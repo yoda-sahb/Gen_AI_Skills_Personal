@@ -51,3 +51,14 @@ This case is already familiar from the conversation and therefore cannot demonst
 - No scores, implied year-by-year trajectories, or causal conclusions manufactured from illustrative examples.
 
 This is a hand-authored regression fixture, not a measured writing-performance benchmark or independent evidence of the company described.
+
+
+## Active-voice and nonduplication regression fixture
+
+**Input:** The author supplies Purpose and Executive Summary sections that repeat the same definition of decision architecture, and requests active voice throughout.
+
+**Expected behavior:** Retain 'This paper proposes' in the Purpose, specify the operating logic with active verbs and actors, and use the Executive Summary to advance the commercial problem, evidence, finance and technology constraints, decision-architecture debt and strategic priorities rather than restating the purpose. Prefer 'Retailers record transactions; media partners report exposures; finance reconciles evidence and obligations' to passive constructions. Do not invent owners, diagnoses or results to satisfy this grammar test.
+
+**Manual checks:** Sentences identify agents where evidence permits; avoid unnecessary passive voice and abstract nominalizations; no duplicated opening argument across Purpose and Executive Summary; keep the author's scope and terminology; preserve uncertainty when agency or effectiveness is not known.
+
+This is an editorial regression example, not an independently validated writing improvement or SharkNinja research finding.
