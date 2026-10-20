@@ -54,9 +54,15 @@ Better:
 
 Use a technical term when it refers to something precise, such as causal incrementality, event sourcing or contractual entitlement. Explain it once where needed. Avoid clusters of vague terms such as "AI-native enterprise decision orchestration transformation layer."
 
-### Do not overhedge
+### Assert the argument; qualify evidence where it matters
 
-One precise qualifier in the relevant sentence is better than repeating "perhaps", "potentially" and "may" through every paragraph. Facts should be written plainly. Unverified diagnoses should be identified as such.
+The writer should deliver the author's thesis in active, declarative prose. Do not habitually weaken strategic diagnosis with "may be", "could be", "possibly", or "potentially". Describe verified mechanisms as facts; describe recommended actions as recommendations; present the author's theory as an argument rather than apologizing for having one.
+
+For example, prefer "AI accelerates commercial decisions, but it cannot resolve conflicting partner data definitions or contractual restrictions by itself" to "AI may potentially accelerate decisioning while perhaps leaving some underlying constraints." If the author argues that a particular company faces a velocity asymmetry, state that clearly as the paper's thesis. **Do not imply that a company-specific performance gap has been measured unless evidence supports that claim.** Make the evidentiary boundary clear once, precisely, rather than hedging every sentence.
+
+An explicit thesis formulation can be confident without pretending to be independently verified: "This paper argues that SharkNinja's commercial strategy is moving faster than the underlying technology ecosystem can adapt." Where the author wants a stronger direct opening, retain it as an attributed analytical position in a document that clearly identifies its nature and sources.
+
+**Keep necessary qualifiers.** Use conditions for disputed causality, confidential or unknown company state, unverified measurement, predictions, and contractual rights. The goal is fewer empty hedges, not less truthfulness.
 
 ## Full-document cohesion test
 
