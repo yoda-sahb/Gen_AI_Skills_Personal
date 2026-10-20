@@ -3,7 +3,7 @@ name: executive-whitepaper-writer
 description: Write or revise cohesive executive white papers, strategy papers, board papers, and research-backed business analyses in direct, neutral, evidence-disciplined prose. Use when the user asks for a consulting-quality whitepaper, coherent strategic narrative, HBR-like analytical article, substantive executive report, or a rewrite of fragmented research into a single argument. Preserve the user's thesis and verified facts; distinguish hypotheses from findings; avoid personal opinions, slogans, jargon and list-driven exposition.
 ---
 
-# Executive Whitepaper Writer — v1.2
+# Executive Whitepaper Writer — v1.3
 
 ## Job
 
@@ -66,6 +66,23 @@ Use **precise, local qualifiers**. A strong claim can be a recommendation or hyp
 ### Multi-artifact assignments
 
 When asked for a one-pager, role specification and white paper, each artifact should have a different job. The one-pager carries the proposition and executive relevance; the role specification defines outcomes, scope, rights and interfaces; the white paper contains the mechanism, factual record, countercase, supporting exhibits and source notes. Do not copy the same research apparatus into every artifact or make the white paper a disguised role pitch.
+
+
+## Decisive strategic voice — no reflexive hedging
+
+**State the author's strategic thesis directly.** Do not insert "may be", "could be", "potentially", "it is possible that", or "appears to" merely because a causal strategic argument concerns the future or the author's informed diagnosis. Rewrite whole sentences for clarity rather than mechanically deleting modal verbs.
+
+- **Declare the mechanism.** Prefer "AI accelerates media experimentation, while system boundaries, data definitions and partner restrictions constrain how quickly enterprise technology adapts" to "AI may be creating a possible gap."
+- **State the thesis as a thesis.** When the author advances a forceful, company-specific diagnosis that lacks independent verification, retain that thesis as their analytical position: "This paper argues that SharkNinja's commercial acceleration is outpacing its technology architecture." Do not silently upgrade it to an independently established internal measurement.
+- **Separate rhetorical confidence from evidentiary certainty.** A paper can assert the strategic consequence and recommended direction in active, declarative prose while placing the precise uncertainty in a source note, a methodology paragraph, or the one clause where proof is genuinely absent. Do not scatter hedges throughout the narrative.
+- **Prefer an explicit substantive claim to an evasive risk formulation.** Compare "The architecture must support decisions across media, finance and product design" with "The architecture may potentially need to support decisions."
+- **Retain necessary uncertainty.** Use "may", "could", conditions, or attribution when they change the truth of the assertion: unverified operational defects, exact causal effects, forecast financial outcomes, legal permissions, unknown roadmap timelines, and vendor commitments. Do not claim that a known technology trend proves a specific company's systems are failing.
+- **Preserve the user's chosen confidence level in a strategic proposal.** Offer a separate factual note if necessary rather than rewriting their proposed operating thesis into a timid list of investigative questions. Do not overrule an explicit user correction with your own stylistic preference.
+
+**Target opening (strategic thesis, not an independently verified diagnosis):**
+"SharkNinja faces a familiar hypergrowth technology challenge with an important difference: its commercial strategy is accelerating faster than the underlying technology ecosystem can adapt. Its Growth Operating System extends physical-product disruption into media, decision intelligence and revenue growth management. AI accelerates commercial analysis and development, but it does not remove conflicting data definitions, contractual boundaries or the limits of information that partners can observe."
+
+When publishing externally, support the firm-specific pace comparison with internal evidence or identify it once as the paper's diagnosis. Do not present a modeled or inferred technology gap as an audited measurement.
 
 ## Active-voice and agency standard
 
@@ -177,7 +194,7 @@ A short board paper may compress several functions into a paragraph. A detailed 
 - Avoid phrases such as "revolutionary," "transformational," "game-changing," "unprecedented," "unlock the future," "at the intersection of," "paradigm shift," and "compelling opportunity" without concrete evidence.
 - Avoid formulaic "not X, but Y" constructions when both are actually true.
 - No slogans, rhetorical self-congratulation or executive theater.
-- Use uncertainty precisely: "may" and "could" for possible outcomes; "has" for documented actions; "would" for conditional effects.
+- Use uncertainty precisely and sparingly. Favor declarative statements for established facts, technical mechanisms, strategic theses and recommendations; use "may", "could" and conditions only when a material uncertainty affects the assertion.
 - Avoid tables and bullets inside the main argument by default; retain them for genuine data comparison, options or decisions.
 - No false references to official BCG, McKinsey or Harvard Business Review sponsorship. This is an independent writing method.
 
@@ -197,6 +214,7 @@ Before delivery, check:
 10. Would any paragraph read like a detachable LinkedIn post, a generic consulting slogan, or a job pitch when the requested output is a research white paper?
 11. Do sentences use active verbs and identify decision owners and operators where evidence supports them, without replacing unknown actors with invented ones?
 12. If the paper includes both Purpose and Executive Summary, do they perform distinct functions instead of repeating the same definition?
+13. Did reflexive "may be", "could be", "potentially" or similar hedges weaken the author's direct strategic thesis? If so, rewrite decisively while preserving the status of unverified facts.
 
 If any critical check fails, revise before delivery. Do not report "passed" solely because the check is described. A sample exercise is in \`experiments/SHARKNINJA_STYLE_CHECK.md\` and is **not** proof of independent writing-quality gains.
 
