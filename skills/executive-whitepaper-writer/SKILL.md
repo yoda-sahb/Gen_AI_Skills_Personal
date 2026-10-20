@@ -3,7 +3,7 @@ name: executive-whitepaper-writer
 description: Write or revise cohesive executive white papers, strategy papers, board papers, and research-backed business analyses in direct, neutral, evidence-disciplined prose. Use when the user asks for a consulting-quality whitepaper, coherent strategic narrative, HBR-like analytical article, substantive executive report, or a rewrite of fragmented research into a single argument. Preserve the user's thesis and verified facts; distinguish hypotheses from findings; avoid personal opinions, slogans, jargon and list-driven exposition.
 ---
 
-# Executive Whitepaper Writer — v1.1
+# Executive Whitepaper Writer — v1.2
 
 ## Job
 
@@ -11,7 +11,7 @@ Turn research, working notes, hypotheses, and executive thinking into **a single
 
 The writing should be sophisticated because the reasoning is sound, **not because the language sounds important**. This is a document-writing and editorial skill, not a research method or a framework for inventing the underlying business strategy.
 
-**Default voice:** objective, direct, measured, natural American English. Prefer plain language and well-linked paragraphs. **When the author supplies a preferred structure or representative passage, the author’s strategic framing and editorial voice take precedence over this default.** Edit for accuracy and intelligibility without turning an original thesis into generic consultant prose.
+**Default voice:** objective, direct, measured, natural American English, with **active voice as the default**. Prefer identifiable subjects, active finite verbs, plain language and well-linked paragraphs. **When the author supplies a preferred structure or representative passage, the author’s strategic framing and editorial voice take precedence over this default.** Edit for accuracy and intelligibility without turning an original thesis into generic consultant prose.
 
 **Default artifact:** a readable paper with a clear thesis, connected prose, necessary evidence, tested alternatives, and a conclusion justified by the body. Do not expose the preparatory framework, checklists, or outline unless requested.
 
@@ -66,6 +66,23 @@ Use **precise, local qualifiers**. A strong claim can be a recommendation or hyp
 ### Multi-artifact assignments
 
 When asked for a one-pager, role specification and white paper, each artifact should have a different job. The one-pager carries the proposition and executive relevance; the role specification defines outcomes, scope, rights and interfaces; the white paper contains the mechanism, factual record, countercase, supporting exhibits and source notes. Do not copy the same research apparatus into every artifact or make the white paper a disguised role pitch.
+
+## Active-voice and agency standard
+
+**Write in active voice by default.** Name the person, function, company, platform, system or process performing the action, and use a direct verb. The reader should know **who does what, to which evidence or system, and for what business consequence**. Active voice matters especially when describing ownership, execution, financial reconciliation, platform constraints, and recommendations.
+
+- Prefer: "Retailers record transactions; advertising partners report exposures; finance reconciles commercial outcomes." Avoid: "Transactions are recorded, exposures are reported, and outcomes are reconciled."
+- Prefer: "Decision architecture connects business objectives, evidence, decision rights, permitted actions, financial treatment and feedback." Avoid: "A relationship between objectives and evidence is established."
+- Prefer: "SharkNinja should maintain a common decision architecture across media, product design, retail and finance." Avoid: "A common architecture should be maintained across functions."
+- **Do not disguise passivity with nominalizations.** Replace phrases such as "the establishment of alignment," "the implementation of reconciliation" and "the enablement of operationalization" with the action and its owner.
+- Do not invent an owner merely to make a passive sentence active. When evidence does not identify the actor, preserve that uncertainty: "The available records do not identify who approves the final decision."
+- Use passive voice selectively when the actor is genuinely unknown, irrelevant, intentionally protected, or when the affected object is the analytical focus. **Do not enforce a mechanical ban on passive constructions.**
+- Active voice does not authorize unsupported certainty: "SharkNinja lacks decision architecture" remains unverified even though it is grammatically active. Prefer an explicit proposal or testable conditional where appropriate.
+- If the author writes in active voice, do not rewrite the passage into impersonal abstractions merely to sound more formal.
+
+### Purpose versus Executive Summary
+
+When the author uses both headings, give them **distinct functions**. The **Purpose** states what the paper proposes, how it defines the discipline and which question it addresses. The **Executive Summary** develops the business situation, the evidence and asymmetry, the risk mechanism, the strategic priorities and their implications. **Do not repeat the same definition or opening paragraph in both sections.** Retain an explicit "This paper proposes..." in the Purpose if that is the author's chosen active construction.
 
 ## Workflow
 
@@ -123,7 +140,7 @@ A hypothetical failure should be written as a possible risk, not as a diagnosis.
 
 **Evidence pass:** Audit every number, date, title, attribution, causal claim, ownership statement, confidential detail and scope qualifier. Restore missing uncertainty; do not dilute established facts with needless hedges.
 
-**Language pass:** Replace artificial business language with plain terms, remove first-person opinions, slogan-like phrases and unnecessary adjectives. Explain a technical term once, then use it consistently.
+**Language pass:** Replace artificial business language with plain terms, remove first-person opinions, slogan-like phrases and unnecessary adjectives. Audit every paragraph for active voice, identifiable actors, direct verbs and unnecessary nominalizations. Preserve passive voice only where it improves factual accuracy or emphasis. Explain a technical term once, then use it consistently.
 
 **Continuity pass:** Read the opening, first and last sentences of each paragraph, and ending as one sequence. If they do not form a coherent argument without headings, redraft. Then read the paper aloud or simulate a spoken executive explanation: it must sound natural, not performative.
 
@@ -146,6 +163,7 @@ A short board paper may compress several functions into a paragraph. A detailed 
 ## Writing standard
 
 - Neutral third person by default, never "I think" or "we believe" unless explicitly requested.
+- Favor active voice and identifiable actors; name who defines, authorizes, executes, reconciles, measures and changes each decision.
 - Clear enough to read aloud. Prefer "what the systems can support" to "underlying operational infrastructure scalability capacity."
 - Explain before naming. A new label is justified only if it makes a recurring distinction easier to understand.
 - Favor one developed causal argument over stacked lists of observations.
@@ -170,6 +188,8 @@ Before delivery, check:
 8. Are source citations, confidentiality and metric classes intact?
 9. If the author supplied a structure or excerpt, does the revision preserve its strategic ambition, sequencing and distinctive operational examples?
 10. Would any paragraph read like a detachable LinkedIn post, a generic consulting slogan, or a job pitch when the requested output is a research white paper?
+11. Do sentences use active verbs and identify decision owners and operators where evidence supports them, without replacing unknown actors with invented ones?
+12. If the paper includes both Purpose and Executive Summary, do they perform distinct functions instead of repeating the same definition?
 
 If any critical check fails, revise before delivery. Do not report "passed" solely because the check is described. A sample exercise is in \`experiments/SHARKNINJA_STYLE_CHECK.md\` and is **not** proof of independent writing-quality gains.
 
