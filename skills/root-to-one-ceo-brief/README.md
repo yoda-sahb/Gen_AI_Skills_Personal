@@ -69,8 +69,6 @@ Source: Thomas Blake, Chris Nosko, and Steven Tadelis, *Consumer Heterogeneity a
 
 **What it does not prove:** that another company's marketing economics, channels, customers, or optimal spend reductions will behave the same way.
 
-That distinction is part of the skill, not a footnote.
-
 ## Example prompt
 
 ```text
@@ -114,8 +112,5 @@ For Agent Skills-compatible environments:
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill root-to-one-ceo-brief
 ```
 
-## Public-method boundary
 
-This skill is a public, executable rendering of the Root-to-One method for CEO-level case studies. It does not include private CareerOS controls, confidential company evidence, unreleased implementation details, or proprietary source material from other methods.
-
-External examples are evidence about mechanisms, not proof that a target company has the same economics or outcome.
+External examples help explain a mechanism; they do not establish that another company will have the same economics or outcome.
