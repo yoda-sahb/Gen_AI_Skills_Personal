@@ -6,6 +6,7 @@
   <a href="#skills">Browse skills</a> ·
   <a href="#try-a-skill">Try a skill</a> ·
   <a href="#install">Install</a> ·
+  <a href="https://github.com/yoda-sahb/Gen_AI_Skills_Personal/archive/refs/heads/main.zip">Download ZIP</a> ·
   <a href="./index.html">Open the skills page</a>
 </p>
 
@@ -44,6 +45,10 @@ and what people will actually do with their resources.
 
 [PASTE DECISION]
 ```
+
+## Download
+
+[Download the repository ZIP](https://github.com/yoda-sahb/Gen_AI_Skills_Personal/archive/refs/heads/main.zip) to get all skill folders and their supporting files. After unzipping, open `skills/`.
 
 ## Install
 
