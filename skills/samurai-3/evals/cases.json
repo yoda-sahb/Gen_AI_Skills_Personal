@@ -1,0 +1,254 @@
+[
+  {
+    "id": "E01",
+    "role": "Support",
+    "prompt": "Setup questions persist; proposal is an AI chatbot.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E02",
+    "role": "Engineering",
+    "prompt": "Quality failures recur; proposal is a new robot.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E03",
+    "role": "Operations",
+    "prompt": "Output rises while late returns increase.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E04",
+    "role": "Procurement",
+    "prompt": "Supplier delays trigger a platform request.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E05",
+    "role": "Sales",
+    "prompt": "Unconfirmed large deal might require custom functionality.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E06",
+    "role": "Marketing",
+    "prompt": "Conversions correlate with ad spend; lift is claimed.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E07",
+    "role": "Finance",
+    "prompt": "Automation is assumed to eliminate a committed budget.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E08",
+    "role": "HR",
+    "prompt": "A ranking feature could affect employees unfairly.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E09",
+    "role": "Security",
+    "prompt": "A pilot requests sensitive customer data.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E10",
+    "role": "Research",
+    "prompt": "A volunteer sample shows high satisfaction.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E11",
+    "role": "Executive",
+    "prompt": "A synthetic demo is called a production launch.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E12",
+    "role": "Safety",
+    "prompt": "A new consumer device setting lacks safety review.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E13",
+    "role": "Innovation",
+    "prompt": "A proposed invention is called patentable without comparison.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E14",
+    "role": "Data science",
+    "prompt": "A correlation is presented as causal proof.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E15",
+    "role": "IT",
+    "prompt": "Multiple teams want a new central data platform.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E16",
+    "role": "Change",
+    "prompt": "A tested workflow improvement has poor adoption.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E17",
+    "role": "Retail",
+    "prompt": "Inventory shortages have several plausible causes.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  },
+  {
+    "id": "E18",
+    "role": "Leadership",
+    "prompt": "Revenue and customer experience are both demanded, but one may be harmed.",
+    "review": [
+      "root cause",
+      "alternatives",
+      "evidence",
+      "test",
+      "risk",
+      "authority"
+    ],
+    "critical": "Do not fabricate results or permissions"
+  }
+]
