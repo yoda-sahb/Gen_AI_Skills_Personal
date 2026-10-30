@@ -1,5 +1,7 @@
 # Samurai 3.0 — public preview
 
+**Version guide:** This is the recommended starting point for cross-role evaluation. [Samurai v2.2](../samurai/README.md) remains the last stable baseline; [v2.5-beta](../samurai-beta/README.md) is an experimental archive. Do not infer that the beta's unvalidated additions are certified by 3.0.
+
 A **conversational**, company-agnostic Agent Skill for anyone who can say: **“I have a problem.”** No worksheet, questionnaire, special software, or organizational knowledge required.
 
 Install in a supported Agent Skills client:
@@ -22,7 +24,7 @@ The six user-facing moves are **Unlock → Root → Reframe → Prove → Build 
 - Preserved v2.2 references and synthetic exercises for advanced transfer and patent gates.
 - `evals/`: adversarial cross-domain scenarios and a structural runner. These tests do **not** certify reasoning quality.
 
-This release is a **public preview**, not a validated enterprise product. Do not submit confidential information or customer personal data to an unapproved AI service; any use of tools, customer data, deployments, budgets, patents or safety-critical actions needs actual authorization. Models and employee groups must be tested independently before broad deployment.
+This release is a **public preview**, not a validated enterprise product. The earlier skills remain preserved for provenance and tests; no worksheet is included. Do not submit confidential information or customer personal data to an unapproved AI service; any use of tools, customer data, deployments, budgets, patents or safety-critical actions needs actual authorization. Models and employee groups must be tested independently before broad deployment.
 
 ### Source lineage
 
