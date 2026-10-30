@@ -18,18 +18,18 @@ description: A universal conversational problem-solving skill integrating Samura
 5. State the smallest reversible step or decisive test that would distinguish competing explanations. Include who can authorize it. Ask **one question at a time** only when essential.
 
 **Automatic routing:** 
-- \`QUICK_FIX\`: the cause is sufficiently known and the solution is local, reversible and low risk; do not demand a seven-stage report.
-- \`ROOT_DIAGNOSIS\`: the causal root or system boundary is uncertain; apply Stage 0 and the seven-stage Samurai chain proportionately.
-- \`DUAL_MANDATE\`: two real outcomes conflict and neither extreme is acceptable; challenge the tradeoff mechanism before architecture.
-- \`RELATIVE_VALUE\`: a customer, operator or executive must choose among options; compare value drivers and actual alternatives.
-- \`PROOF\`: a recommendation depends on unverified claims; design a minimum decisive demonstration or experiment.
-- \`ADOPTION\`: the mechanism is justified but people, incentives or environment prevent use.
-- \`ESCALATE\`: safety, regulated claims, privacy, employment decisions, security or rights require an authorized human.
-- \`STOP\`, \`NO_TRANSFER\`, \`REUSE_EXISTING\`, \`INSUFFICIENT_EVIDENCE\`: valid outcomes, never punish candor.
+- `QUICK_FIX`: the cause is sufficiently known and the solution is local, reversible and low risk; do not demand a seven-stage report.
+- `ROOT_DIAGNOSIS`: the causal root or system boundary is uncertain; apply Stage 0 and the seven-stage Samurai chain proportionately.
+- `DUAL_MANDATE`: two real outcomes conflict and neither extreme is acceptable; challenge the tradeoff mechanism before architecture.
+- `RELATIVE_VALUE`: a customer, operator or executive must choose among options; compare value drivers and actual alternatives.
+- `PROOF`: a recommendation depends on unverified claims; design a minimum decisive demonstration or experiment.
+- `ADOPTION`: the mechanism is justified but people, incentives or environment prevent use.
+- `ESCALATE`: safety, regulated claims, privacy, employment decisions, security or rights require an authorized human.
+- `STOP`, `NO_TRANSFER`, `REUSE_EXISTING`, `INSUFFICIENT_EVIDENCE`: valid outcomes, never punish candor.
 
 ### Six plain-language moves (Root-to-One integration)
 
-\`UNLOCK → ROOT → REFRAME → PROVE → BUILD TO ONE → GRADUATE\`
+`UNLOCK → ROOT → REFRAME → PROVE → BUILD TO ONE → GRADUATE`
 
 - **Unlock:** What important outcome should improve, for whom, without compromising which genuine invariants?
 - **Root:** What mechanism is producing the symptom; does it live inside a system, between systems, outside present observability, or remain unresolved?
@@ -68,13 +68,13 @@ These six moves are the **user interface**. Samurai's full seven-stage inventor-
 
 Default: two concise paragraphs with working root/evidence, best existing alternative, the next authorized test or action, and one blocking question only if necessary. For meaningful decisions use the compact handoff:
 
-\`Customer | Problem | Mechanism | Alternatives | Relative value | Decisive proof\`
+`Customer | Problem | Mechanism | Alternatives | Relative value | Decisive proof`
 
 Append risks, decision owner, pre-mortem and proof level when material. Full seven-stage trace, novel transfer and patent discovery appear only when the problem demands them or the user requests advanced mode. The detailed original response contract below remains the advanced standard; it does not force a long report on a frontline user.
 
 ### Source and publication guardrails
 
-The source methods retain distinct attribution. See \`references/PROBLEM_TO_PROOF.md\`, \`references/PREMORTEMS.md\`, \`references/ADOPTION_AND_VALUE.md\`, and \`references/EVAL_PROTOCOL_3.md\` for the new integration; the original novelty, patent and training references remain unchanged. All examples are fictional and company-neutral. Do not expose employer material, confidential inventions, customer data, credentials or private book notes. Do not assert patentability, launch, company shortcomings, measured outcomes or approved organizational adoption without evidence.
+The source methods retain distinct attribution. See `references/PROBLEM_TO_PROOF.md`, `references/PREMORTEMS.md`, `references/ADOPTION_AND_VALUE.md`, and `references/EVAL_PROTOCOL_3.md` for the new integration; the original novelty, patent and training references remain unchanged. All examples are fictional and company-neutral. Do not expose employer material, confidential inventions, customer data, credentials or private book notes. Do not assert patentability, launch, company shortcomings, measured outcomes or approved organizational adoption without evidence.
 
 **Status:** Public preview 3.0, not independently validated. It does not replace the stable Samurai or experimental beta. No worksheet or required template is part of this skill.
 
