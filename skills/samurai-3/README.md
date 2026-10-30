@@ -1,33 +1,102 @@
-# Samurai 3.0 — public preview
+# Samurai 3.0
 
-**Version guide:** This is the recommended starting point for cross-role evaluation. [Samurai v2.2](../samurai/README.md) remains the last stable baseline; [v2.5-beta](../samurai-beta/README.md) is an experimental archive. Do not infer that the beta's unvalidated additions are certified by 3.0.
+**Find the real problem. Prove the next move.**
 
-A **conversational**, company-agnostic Agent Skill for anyone who can say: **“I have a problem.”** No worksheet, questionnaire, special software, or organizational knowledge required.
+Samurai is a conversational Agent Skill for anyone facing a difficult problem. Start with what is happening, not a proposed platform, feature or organizational solution. The method adapts to the problem and asks only the next necessary question.
 
-Install in a supported Agent Skills client:
+**Status: public preview.** This version is designed for cross-role evaluation and pilots, not yet independently validated for enterprise-wide deployment.
+
+## The operating sequence
+
+```mermaid
+flowchart LR
+    A[Unlock] --> B[Root]
+    B --> C[Reframe]
+    C --> D[Prove]
+    D --> E[Build to One]
+    E --> F[Graduate]
+```
+
+The six moves are the user-facing journey. Underneath them, the inventor-architect method remains:
+
+`Breadth → Abstraction → Analogy → Synthesis → Architecture → Invention → Execution`
+
+The goal is to produce a better decision with evidence, not a longer framework report.
+
+## What makes Samurai different
+
+### Find the root before choosing a solution
+
+Separate the symptom from the mechanism causing it. Look across functions, distinguish existing evidence from inference, and ask whether the relevant constraint is fundamental or inherited from the current system.
+
+### Compare real alternatives
+
+Use buyer-relative value to compare the proposal with the best existing workaround, another product, a simpler internal fix, delay, or doing nothing. A technically impressive invention is not automatically the most valuable choice.
+
+### Prove before scaling
+
+Use the smallest honest test. A conceptual rendering, synthetic demonstration, working prototype, controlled experiment, production launch and sustained adoption are separate evidence states. Record what each proves and does not prove.
+
+### Anticipate failure and design adoption
+
+For consequential choices, run a pre-mortem with warning signs and stop conditions. Address decision rights, incentives and operational friction. A worthwhile idea that people cannot or will not use is not yet a durable capability.
+
+## Use it for
+
+- Customer complaints and recurring service failures
+- Product, engineering and operational problems
+- Strategy, prioritization and resource allocation
+- Competing objectives that appear impossible to reconcile
+- Innovation and system-architecture decisions
+- Testing a concept before substantial investment
+- Planning adoption, ownership and scale
+
+A local, reversible issue may require a quick fix rather than all seven stages. The correct result can also be **reuse an existing solution, request more evidence, escalate, or stop**.
+
+## Example prompt
+
+```text
+Use Samurai 3.0. I have a problem:
+
+[Describe what is happening.]
+
+Help me find the root cause, compare the best existing alternatives,
+design the smallest honest test, and anticipate how the plan could fail.
+Ask one question at a time only when needed.
+```
+
+## Proof and evaluation
+
+This release includes [18 cross-role evaluation scenarios](./evals/cases.json), a [structural evaluation runner](./evals/run_evals.py), and a [human-review protocol](./references/EVAL_PROTOCOL_3.md). Its original invention, novel-transfer, and patent-discovery references remain available.
+
+**Structural checks are not proof of reasoning quality, safety, or business outcomes.** Independent evaluations, adverse-case reviews and actual usability studies remain necessary.
+
+## Install
+
+There is one shared implementation:
+
+[`SKILL.md`](./SKILL.md)
+
+For Agent Skills-compatible environments:
 
 ```bash
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill samurai-3
 ```
 
-Start: “Use Samurai 3.0. I have a problem: [what is happening].” The skill determines whether to use a quick fix, root diagnosis, relative-value comparison, dual-mandate frontier challenge, experiment, pre-mortem, adoption plan, or an honest STOP.
+No separate ChatGPT or Claude implementation is required. Users should not provide confidential or personal data to an environment that has not been approved to receive it.
 
-The six user-facing moves are **Unlock → Root → Reframe → Prove → Build to One → Graduate**. The deep reasoning engine retains **Breadth → Abstraction → Analogy → Synthesis → Architecture → Invention → Execution**. Value strategy asks whether an option is better than credible alternatives for this buyer. Switch-informed adoption addresses motivation, direction and friction. Proof levels and pre-mortems stop a persuasive demonstration from becoming a fake launch claim.
+<details>
+<summary><strong>Earlier Samurai versions</strong></summary>
 
-## Contents
+- [Samurai v2.2](../samurai/README.md) is the last stable inventor-architect baseline.
+- [Samurai v2.5-beta](../samurai-beta/README.md) is an experimental archive. Its additional gates are not independently validated.
 
-- `SKILL.md`: full self-contained operating instructions, original Samurai stages and new routing.
-- `references/PROBLEM_TO_PROOF.md`: value, dual mandates, proof and decision gates.
-- `references/PREMORTEMS.md`: prospective failure and stop criteria for projects and for the skill itself.
-- `references/ADOPTION_AND_VALUE.md`: buyer choice, human behavior and adoption.
-- `references/EVAL_PROTOCOL_3.md`: skill-quality eval design, separate from intervention experiments.
-- Preserved v2.2 references and synthetic exercises for advanced transfer and patent gates.
-- `evals/`: adversarial cross-domain scenarios and a structural runner. These tests do **not** certify reasoning quality.
+Both remain available for comparisons and historical provenance.
 
-This release is a **public preview**, not a validated enterprise product. The earlier skills remain preserved for provenance and tests; no worksheet is included. Do not submit confidential information or customer personal data to an unapproved AI service; any use of tools, customer data, deployments, budgets, patents or safety-critical actions needs actual authorization. Models and employee groups must be tested independently before broad deployment.
+</details>
 
-### Source lineage
+## Attribution and boundaries
 
-The integrated methods are documented publicly in the same repository: [Samurai stable](../samurai/README.md), [Root-to-One CEO Brief](../root-to-one-ceo-brief/README.md), and [Product Value-Strategy](../product-value-strategy/README.md). *Switch* is by Chip and Dan Heath. The new routing, proof gates and pre-mortems are this release’s synthesis; do not misattribute them to any single source author.
+Samurai 3.0 integrates distinct public methods rather than claiming one author created all of them. The separate [Root-to-One CEO Brief](../root-to-one-ceo-brief/README.md) supplies the six-move problem-to-proof sequence. [Product Value-Strategy](../product-value-strategy/README.md) draws on concepts attributed to Dwight Porter with separate operational extensions. Adoption guidance draws on high-level principles from *Switch* by Chip and Dan Heath.
 
-For organizations, evaluate against held-out cases, compare with a baseline, review actual participant usability, and preserve the option to stop.
+New routing, pre-mortem and evaluation procedures are part of the Samurai 3.0 integration. All company examples used for training are hypothetical unless independently documented. The skill provides reasoning support, not legal authorization, patent rights, production verification or permission to handle restricted data.
