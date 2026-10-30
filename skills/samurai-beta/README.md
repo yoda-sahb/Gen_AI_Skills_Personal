@@ -1,8 +1,10 @@
-# Samurai v2.5-beta — experimental release
+# Samurai v2.5-beta — experimental archive
 
-**Boundary-first reasoning: challenge the system boundary before committing to an architecture.**
+**Historical experiment — not the recommended starting point.** For everyday problem solving use [Samurai 3.0 (public preview)](../samurai-3/README.md); for a stable reference use [Samurai v2.2](../samurai/README.md).
 
-This is an independently installable **beta** Agent Skill at `skills/samurai-beta/`. **Stable Samurai v2.2 remains at `skills/samurai/` and its SKILL.md is not replaced.**
+This beta explores boundary-first reasoning: challenge the system boundary before committing to an architecture. Its experimental additions are preserved for comparison, not assumed to be part of or validated by Samurai 3.0.
+
+This is a preserved, independently installable **beta** Agent Skill at `skills/samurai-beta/`. **Stable Samurai v2.2 remains at `skills/samurai/` and its SKILL.md is not replaced.**
 
 ## Install
 
