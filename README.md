@@ -1,242 +1,76 @@
-<p align="center">
-  <img src="./assets/hero.svg" alt="Gen AI Skills — Better thinking, stories, and writing for AI" width="100%">
-</p>
+<p align="center"><img src="./assets/hero.svg" alt="Gen AI Skills: reusable reasoning and writing skills" width="100%"></p>
 
-<p align="center">
-  <strong><a href="#choose-a-skill">Browse Skills</a></strong> ·
-  <strong><a href="#try-it">Try One</a></strong> ·
-  <strong><a href="#install">Install</a></strong> ·
-  <strong><a href="./index.html">Open Public Page</a></strong>
-</p>
+# Gen AI Skills
 
-Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems. Each skill targets a recurring failure mode that generic prompting tends to miss.
+Reusable, inspectable Agent Skills for better problem solving, strategy, storytelling and writing. Each has one `SKILL.md` that works in compatible AI-agent environments.
+
+**[Explore skills](#choose-a-skill) · [Try a prompt](#try-it) · [Install](#install) · [View the public page](./index.html)**
 
 ## Choose a skill
 
-| Skill | Use it when | Core promise |
-|---|---|---|
-| [**Product Value-Strategy**](./skills/product-value-strategy/README.md) | You need to decide what to build, position, price, prioritize, or reject. | **Find where the buyer actually has a reason to choose you.** |
-| [**Root-to-One CEO Brief**](./skills/root-to-one-ceo-brief/README.md) | You have a hard strategic problem and need to find the root, reframe the system, and define the next proof. | **Make the decision clearer before you make the solution bigger.** |
-| [**Samurai Skill**](./skills/samurai/README.md) | You need to reframe a cross-domain problem, transfer a mechanism, and design a falsifiable invention. | **Find the hidden boundary. Transfer the useful mechanism. Build what the evidence earns.** |
-| [**Storytelling**](./skills/storytelling/README.md) | The idea is strong but the narrative is flat, framework-first, or over-explained. | **Make the audience understand the idea before you name it.** |
-| [**Executive Whitepaper Writer**](./skills/executive-whitepaper-writer/README.md) | You have the analysis but need a cohesive, evidence-based executive paper. | **Build one clear argument without hype, personal opinions, or unsupported claims.** |
-| [**Wordsmith**](./skills/wordsmith/README.md) | The thought is right but the wording is loose, generic, or over-polished. | **Make the sentence better without changing the thought.** |
+| Skill | Best for | Status |
+| --- | --- | --- |
+| **[Samurai 3.0](./skills/samurai-3/README.md)** | Anyone with a problem: find the root cause, compare alternatives, prove value, anticipate failure, and make the change usable. | **Public preview — evaluation pending** |
+| [Product Value-Strategy](./skills/product-value-strategy/README.md) | What the real buyer values, the strongest alternatives, relative advantage, pricing, and resource allocation. | Available |
+| [Root-to-One CEO Brief](./skills/root-to-one-ceo-brief/README.md) | Reframe a difficult executive problem, preserve business constraints, and identify the cheapest decisive proof. | Available |
+| [Executive Whitepaper Writer](./skills/executive-whitepaper-writer/README.md) | Turn research into one cohesive, evidence-bound executive argument. | Available |
+| [Storytelling](./skills/storytelling/README.md) | Build a narrative that reveals its mechanism before naming it. | Available |
+| [Wordsmith](./skills/wordsmith/README.md) | Improve clarity and expression without changing the underlying facts. | Available |
 
-### A useful sequence
+### Samurai versions — one recommended starting point
 
-`Product Value-Strategy → choose the strongest argument`
+| Version | Purpose | Status |
+| --- | --- | --- |
+| **[3.0](./skills/samurai-3/README.md)** (`samurai-3`) | General-purpose conversational problem solving. Root-to-One, Samurai, conditional dual-mandate innovation, relative value, pre-mortems, proof, adoption, and evals. | **Public preview; use for evaluation and pilots** |
+| [2.2](./skills/samurai/README.md) (`samurai`) | Original seven-stage inventor-architect method and novelty/patent gates. | Last stable release |
+| [2.5-beta](./skills/samurai-beta/README.md) (`samurai-beta`) | Experimental boundary, obligations and context-gated innovation routing. | **Experimental archive; not a replacement for 3.0 or validated** |
 
-`Root-to-One CEO Brief → find the root, reframe the system, and define the proof`
+Older versions stay accessible for provenance and comparison. They are not three separate recommended installations. No version has yet passed independent enterprise usability or safety validation.
 
-`Executive Whitepaper Writer → make the argument a connected, evidence-backed paper`
+## Start with a problem
 
-`Storytelling → make the argument unfold`
+For Samurai 3.0, no worksheet or specialist vocabulary is needed:
 
-`Wordsmith → improve the language without changing the argument`
+```text
+Use Samurai 3.0. I have a problem: [describe what is happening].
+Help me find the actual cause, identify a simpler alternative,
+design the smallest honest test, and anticipate what could fail.
+Ask only the next necessary question.
+```
 
----
+The six plain-language moves are **Unlock → Root → Reframe → Prove → Build to One → Graduate**. The advanced engine preserves Samurai's **Breadth → Abstraction → Analogy → Synthesis → Architecture → Invention → Execution**.
 
-## Why Gen AI Skills
-
-Generic AI is good at making an answer sound coherent. The harder failure modes come next: the buyer has alternatives, people have incentives, budgets move, stories drift away from their thesis, and polished language can quietly change the thought underneath it.
-
-Gen AI Skills turns those recurring failure modes into reusable operating instructions rather than one-off prompts.
-
-## Product Value-Strategy
-
-**Find where the buyer actually has a reason to choose you.**
-
-Use it when you need to decide what to build, how to position it, where you actually have premium, or whether the thesis collapses once you compare it with the best thing the buyer can do instead.
-
-It forces four questions:
-
-1. **What does this buyer actually value?**
-2. **What can they do instead?**
-3. **Where are you meaningfully better rather than merely relevant?**
-4. **What will the people inside the system actually do once incentives, budgets, authority, and reallocation enter the model?**
-
-That fourth question is the built-in **Behavioral Reality Check**:
-
-> **Put the people back in the model.**
-
-A strategy is not finished if it only works because someone stops spending, gives up economics, cooperates against their incentives, or lets a saved resource disappear.
-
-[Explore Product Value-Strategy →](./skills/product-value-strategy/README.md)
-
-## Root-to-One CEO Brief
-
-**Make the decision clearer before you make the solution bigger.**
-
-Use it when an executive problem is ambiguous, cross-functional, or likely sitting at the wrong system layer.
-
-Root-to-One CEO Brief works through:
-
-`Unlock → Root → Reframe → Prove → Build to One → Graduate`
-
-The CEO-facing output stays natural: Opportunity, Problem, Reframe, Mental Model, North Star, Visual, How We Learn, Real Example, Experiment, Decision, Build to One, Graduate, and a concise restatement.
-
-Every completed brief requires:
-
-- at least one decision-relevant visual;
-- at least one documented real example;
-- an explicit statement of what the example does **not** prove;
-- the cheapest decisive experiment; and
-- a decision, not just a dashboard or insight.
-
-[Explore Root-to-One CEO Brief →](./skills/root-to-one-ceo-brief/README.md)
-
-## Samurai Skill
-
-**Find the hidden boundary. Transfer the useful mechanism. Build what the evidence earns.**
-
-Samurai Skill traces:
-
-`breadth → abstraction → analogy → synthesis → architecture → invention → execution`
-
-Its defining test is **novel transfer**: retrieve a useful mechanism from a different domain, map the causal relationships, reject invalid parts, adapt the rest, and prove the difference against a credible baseline.
-
-The public package includes a staged attribution case, adversarial reveals, a working 100-point rubric, and a reproducible **synthetic** measurement experiment. The worked case illustrates why cleaning connected data cannot reconstruct events no system ever observed, why customer context and causal marketing lift need different evidence, and why consent, bias, and existing platforms can shrink or kill the proposed invention.
-
-**Not a validated personality test, an independent AI benchmark, or a claim of real commercial outcomes.**
-
-[Explore Samurai Skill →](./skills/samurai/README.md)
-
-## Executive Whitepaper Writer
-
-**Build one clear argument without hype, personal opinions, or unsupported claims.**
-
-Use it when research and strategic notes need to become a sustained executive white paper. It separates established facts from hypotheses, checks the logic across paragraphs, and writes in direct language rather than turning the argument into a collection of frameworks and bullet points.
-
-[Explore Executive Whitepaper Writer →](./skills/executive-whitepaper-writer/README.md)
-
-## Storytelling
-
-**Make the audience understand the idea before you name it.**
-
-Use it when the idea is strong but the narrative feels flat, over-explained, framework-first, or hijacked by a good anecdote.
-
-Storytelling:
-
-- locks the governing thesis before shaping the narrative;
-- creates a live question, tension, or puzzle;
-- reveals the mechanism progressively;
-- uses examples only when they do explanatory work;
-- applies the **show-before-name** rule to specialized concepts and frameworks; and
-- earns the ending by changing how the opening is understood.
-
-> **A strong story does not announce the insight. It makes the audience see why the insight has to be true.**
-
-[Explore Storytelling →](./skills/storytelling/README.md)
-
-## Wordsmith
-
-**Make the sentence better without changing the thought.**
-
-Use it when the idea is already there but the wording is loose, generic, over-polished, corporate, or simply not memorable enough.
-
-Wordsmith:
-
-- locks the meaning before editing;
-- cuts filler before inventing new language;
-- prefers concrete nouns and verbs;
-- protects plain language and distinctive voice;
-- improves cadence, compression, naming, headlines, and titles; and
-- refuses to quietly strengthen facts, certainty, or claims just to make the prose sound better.
-
-> **Better wording should make the thought clearer, not turn it into a different thought.**
-
-[Explore Wordsmith →](./skills/wordsmith/README.md)
-
----
+The skill may recommend an existing fix, no AI, an experiment, an escalation, or stopping. A simulation is not a production result; a hypothesis is not an invention; a persuasive demonstration is not proof.
 
 ## Try it
 
-### Product Value-Strategy
+- **[Samurai 3.0](./skills/samurai-3/README.md):** Bring a real problem and use the conversational prompt above.
+- **[Product Value-Strategy](./skills/product-value-strategy/README.md):** "Who is deciding, what do they value, what can they do instead, and where is our relative advantage actually evidenced?"
+- **[Root-to-One CEO Brief](./skills/root-to-one-ceo-brief/README.md):** "What are we trying to unlock, what must remain true, where does the real constraint sit, and what is the next proof?"
+- **[Storytelling](./skills/storytelling/README.md):** "Help the reader see the mechanism before naming the idea."
+- **[Wordsmith](./skills/wordsmith/README.md):** "Edit this without increasing certainty or changing my meaning."
 
-The repository includes a lightweight public page for exploring the method without an API key. Open [`index.html`](./index.html) locally, or use the skill directly in a compatible agent.
-
-```text
-Use Product Value-Strategy on this decision. Identify what the buyer values, the strongest alternatives, where I have real premium, and run the Behavioral Reality Check:
-
-[PASTE DECISION]
-```
-
-### Samurai Skill
-
-```text
-Use Samurai Skill on this cross-domain problem. Show the inherited framing, possible blind spots, analogical transfer with failure limits, a minimum mechanism, the strongest alternative, and a decisive kill test:
-
-[PASTE PROBLEM]
-```
-
-### Executive Whitepaper Writer
-
-```text
-Use Executive Whitepaper Writer. Turn these research notes into a cohesive white paper with a clear thesis, connected paragraphs, objective tone and preserved evidence status:
-
-[PASTE NOTES]
-```
-
-### Storytelling
-
-```text
-Use Storytelling on these notes. Keep the thesis intact, but make the idea unfold naturally:
-
-[PASTE NOTES]
-```
-
-### Wordsmith
-
-```text
-Wordsmith this without changing the argument:
-
-[PASTE TEXT]
-```
+The public [`index.html`](./index.html) includes a prompt-builder for Product Value-Strategy. It is not an AI backend or an evaluation result.
 
 ## Install
 
-There is one shared implementation per skill:
-
-```text
-skills/product-value-strategy/SKILL.md
-skills/root-to-one-ceo-brief/SKILL.md
-skills/samurai/SKILL.md
-skills/executive-whitepaper-writer/SKILL.md
-skills/storytelling/SKILL.md
-skills/wordsmith/SKILL.md
-```
-
-For Agent Skills-compatible coding agents:
+Install only the skill you need in a compatible Agent Skills environment:
 
 ```bash
-npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill product-value-strategy
-npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill root-to-one-ceo-brief
-npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill samurai
-npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill executive-whitepaper-writer
-npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill storytelling
-npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill wordsmith
+npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill samurai-3
 ```
 
-For ChatGPT Skills or Claude environments that support Agent Skills, use the same skill folders. The core instructions are not forked into separate ChatGPT and Claude versions.
+For the other skills, substitute `product-value-strategy`, `root-to-one-ceo-brief`, `executive-whitepaper-writer`, `storytelling`, or `wordsmith`.
 
-### Why `SKILL.md`?
+Historical versions can still be installed by explicitly selecting `samurai` (v2.2) or `samurai-beta` (v2.5-beta). Their prompts and tests are not an independent certification of improved model behavior.
 
-Because that is the shared Agent Skills convention. It is implementation plumbing, not the product name.
+## Provenance and safeguards
 
-The human-facing products are **Product Value-Strategy**, **Root-to-One CEO Brief**, **Samurai Skill**, **Executive Whitepaper Writer**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
+- Samurai is an original seven-stage reasoning method with structured novelty, system-boundary, falsification, and patent-discovery gates.
+- Root-to-One is a separate systems-first method, used as a six-move employee-facing journey in Samurai 3.0.
+- Product Value-Strategy operationalizes value-strategy concepts attributed to Dwight Porter. Extensions such as behavioral resource-reallocation checks are not attributed to Porter without independent sourcing or endorsement.
+- Adoption guidance draws on high-level principles from *Switch* by Chip and Dan Heath; the new integrated skill does not represent itself as their official work.
+- Skill evals assess the assistant's reasoning; intervention experiments assess whether the proposed real-world solution works. Structural test passes alone are not independent validation.
+- Do not share proprietary, confidential, regulated or personally identifying information with an AI environment that is not authorized for it. Human approvals remain necessary for consequential actions.
 
-## Public design principle
-
-Each public skill should make five things obvious without requiring the reader to inspect the implementation:
-
-`Problem → Method → Example → Try it → Install`
-
-The implementation remains inspectable for builders, but the repository is designed first as a product portfolio rather than a folder of prompt files.
-
-## Attribution
-
-The value-strategy foundation in Product Value-Strategy is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
-
-Gen AI Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Behavioral Reality Check are implementation extensions and should not be attributed to Porter without independent sourcing.
-
-Root-to-One CEO Brief is an independent systems-first executive decision method. Storytelling and Wordsmith are independent writing skills.
+**Licensing:** This repository is publicly viewable, but it does not yet include an explicit reuse license. Public visibility does not automatically grant redistribution or commercial rights. Licensing remains to be decided by the rights holder.
