@@ -1,6 +1,6 @@
 # Samurai Skill — v2.2
 
-> **Experimental preview:** [Samurai v2.4-beta](../samurai-beta/README.md) adds mandatory boundary/obligation checks and earlier invention discovery. It is **not independently validated**. This v2.2 method remains the last stable release.
+> **Version guide:** [Samurai 3.0](../samurai-3/README.md) is the company-neutral, general-purpose **public preview**. [Samurai v2.5-beta](../samurai-beta/README.md) is an **experimental archive**, not independently validated. This v2.2 method remains the last stable release and is retained as the comparison baseline.
 
 **Find the hidden boundary. Transfer the useful mechanism. Build what the evidence earns.**
 
