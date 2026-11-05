@@ -7,7 +7,7 @@ Use stage checks as evidence requirements. Reuse completed checks while their ba
 | Transition | Evidence required |
 | --- | --- |
 | Research to architecture | Scoped corpus status, supported argument map, material qualifications and gaps |
-| Architecture to pilot | Distinct chapter contributions, source anchors, integration purpose, coherent whole-book sequence |
+| Architecture to pilot | Distinct themes traced to passages, a reason for the order of discovery, varied narrative engines, any supporting contributor’s purpose |
 | Pilot to full drafting | Representative prose, fidelity and narrative review, any required approval |
 | Draft to release | Claim verification, novelty and repetition checks, skeptical review, actual length and completeness |
 
@@ -17,7 +17,7 @@ Test the strongest opposing interpretation. Check whether qualifications change 
 
 Verify quotations, translations, important locators, attribution, and consequential empirical or specialist claims against the relevant sources. An unverified claim stays visibly unresolved, is narrowed, or is removed. Do not invent an expert review; identify where one is still needed.
 
-Check distinctive contributions and relevant scene reuse. Compare a revision with its baseline when available. For a fresh-start book, audit the independent result; do not silently make an old manuscript its foundation.
+Check that each narrative turn earns its conclusion and that the source author's reasoning remains the explanation. Check distinctive chapter contributions and relevant scene reuse. Compare a revision with its baseline when available. For a fresh-start book, audit the independent result; do not silently make an old manuscript its foundation.
 
 ## Release truthfully
 
@@ -25,4 +25,4 @@ Preserve the previous canonical version. Save the proposed or accepted version w
 
 Supply title and author/adapter credit, appropriate source notes, and an internal contents list for a book-length release. Include a recoverable source-to-chapter map when source fidelity is central. Resolve material rights questions before publication. Generate only requested formats using their relevant production guidance; render and inspect layout, contents navigation, and legibility as applicable. Verify the exact saved paths and formats before linking.
 
-Report the actual deliverable: outline, pilot, abridgment, interpretive synthesis, substantial draft, or release. Reserve completeness claims for developed content and completed checks. Update affected book records and the portfolio entry when present.
+Report the actual deliverable: outline, pilot, abridgment, thematic adaptation draft, or release. Reserve completeness claims for developed content and completed checks. Update affected book records and the portfolio entry when present.

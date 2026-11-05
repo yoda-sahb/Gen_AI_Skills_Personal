@@ -1,8 +1,8 @@
 interface:
   display_name: Book Studio
-  short_description: Research, develop, and revise nonfiction books
-  default_prompt: Use $book-studio to develop this nonfiction book from its brief
-    and sources.
+  short_description: Adapt classical authors into thematic narrative nonfiction
+  default_prompt: Use $book-studio to map this author’s ideas into themes and develop
+    a narrative adaptation.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

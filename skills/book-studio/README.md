@@ -1,26 +1,29 @@
 # Book Studio
 
-Develop source-grounded narrative nonfiction from the first research audit through revision and release. Use Book Studio to adapt scholarly work around an author's argument or develop an original book from several sources.
+Adapt a classical author's work into thematic narrative nonfiction. Apply the same method to a later scholar selected for a book.
 
 [Download Book Studio ZIP](../../downloads/book-studio.zip?raw=1)
 
 ## How it works
 
-- Record which sources you read and map their claims, qualifications, and disagreements to recoverable passages.
-- Give each chapter a distinct contribution and narrative approach. Test the structure with a representative pilot.
-- Preserve the strength, scope, and conditions of claims through revision. Record decisions and unresolved source gaps in the book's files.
+1. **Reconstruct the argument.** Read the primary texts, trace claims to specific passages, and preserve qualifications and disagreements.
+2. **Reorganize by theme.** Bring together passages that answer the same question, even across different works. Order chapters by what readers need to discover next.
+3. **Write through discovery.** Open with a documented case or a clearly labeled hypothetical. Let readers form a plausible first explanation. Use a detail, comparison, or counterexample to change it, then show what the author's reasoning explains. Write in an original voice.
 
-The skill opens guidance for the current stage. Its four references cover book state, research, composition, and review and release. [SKILL.md](./SKILL.md)
+The skill includes guidance for research, composition, book records, and release. [Read SKILL.md](./SKILL.md)
 
 ## Try it
 
 ```text
-Use Book Studio to audit the sources for this nonfiction book.
+Use Book Studio to adapt the work of [author] for general readers.
 
-[Add the book brief and the available sources.]
+[Add primary texts, editions, and the book brief.]
 
-Record what you read, trace the central argument and its qualifications,
-and identify the gaps that matter before we design the chapters.
+Group the author's arguments by theme and propose a chapter sequence. For
+each chapter, give the supporting passages, the question or case driving
+it, and the strongest qualification. If the sources support the plan,
+draft one opening that lets the reader see the puzzle before you name
+the author's concept.
 ```
 
 ## Install
@@ -33,4 +36,4 @@ npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill book-studio
 
 ## Evaluation
 
-The evaluation covers 64 runs across four models, including comparison runs and targeted retests. The ten synthetic cases, scoring criteria, and replay utility are available separately. [Evaluation results and replay instructions](../../evals/book-studio/README.md)
+Two synthetic cases tested thematic organization, narrative discovery, source fidelity, and what happens when a primary text is missing. [Results and replay inputs](../../evals/book-studio/adaptation.md)

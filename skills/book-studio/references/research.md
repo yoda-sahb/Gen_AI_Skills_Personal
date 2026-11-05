@@ -4,7 +4,7 @@
 
 Define the question and evidence needed for the requested output. Prioritize essential sources, useful context, and optional leads. Do not expand the corpus indefinitely. Establish which sources and passages must be read before the proposed argument can be supported.
 
-For an author-led adaptation, identify the primary work and edition, then selected works by that author that clarify development, method, qualifications, or apparent contradictions. For an original synthesis, select sources by their evidential or explanatory role; do not manufacture an anchor author.
+Identify the primary work and edition, then select works by the same author that clarify development, method, qualifications, or apparent contradictions. Recover the original problem and technical terms in context. If two passages appear to conflict, examine the conditions or period of each and record any disagreement that remains.
 
 Maintain a source-status table:
 
@@ -28,6 +28,6 @@ Verify quotations against the text. Identify translators; distinguish published 
 
 ## Integrate selectively
 
-For every substantial supporting contributor in an author-led book, write: "This contributor explains ___ that the anchor author does not." Identify the contribution's domain and limits. For a synthesis, record the source's distinct role and how conflicting evidence changes the editorial thesis. Do not confuse ethical, historical, empirical, therapeutic, and normative authority.
+For every substantial supporting contributor, name the gap left by the anchor author and explain what the contributor adds. Identify the contribution’s domain and limits. Distinguish ethical, historical, empirical, therapeutic, and normative authority.
 
 Finish with an argument map supported to the depth needed for the next stage, its strongest objections, and explicit gaps. Do not claim a complete corpus audit or comprehensive intellectual history from partial reading. When access prevents a supported argument, produce a provisional plan and source request.

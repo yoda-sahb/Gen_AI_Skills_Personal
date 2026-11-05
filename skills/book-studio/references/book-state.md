@@ -1,6 +1,6 @@
 # Book state
 
-Keep instructions, evidence, and progress separate. Use existing files and identifiers rather than creating a competing system.
+Keep instructions, evidence, and progress separate. Use the shared portfolio index for routing and the active book’s records for content.
 
 ## Minimum working set
 
@@ -8,7 +8,7 @@ Create only what the current task needs. For a new research-led book, start with
 
 | Record | Keep here |
 | --- | --- |
-| Brief | Book ID, purpose, audience, mode, central question, boundaries, intended length, voice, credit, canonical baseline, current stage, required approvals, file locations |
+| Brief | Book ID, anchor author, primary works, governing question, audience, boundaries, intended length, voice, credit, canonical baseline, current stage, required approvals, file locations |
 | Source and claim records | Source access and read status, editions, locators, claims, qualifications, verification, unresolved evidence |
 | Chapter and scene ledger | Chapter contribution, evidence, narrative form, scene provenance, repetition checks, drafting and review status |
 | Decisions and handoff | Material decisions with reasons, latest accepted and proposed versions, unresolved dependencies, next action |

@@ -22,7 +22,7 @@ Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems. 
 | [**Executive Whitepaper Writer**](./skills/executive-whitepaper-writer/README.md) | Research and analysis need to become an evidence-based executive paper. | Build one clear argument. |
 | [**Storytelling**](./skills/storytelling/README.md) | A strong idea is trapped in a flat, framework-first, or over-explained story. | Make the audience see the idea before naming it. |
 | [**Wordsmith**](./skills/wordsmith/README.md) | The wording needs to improve without changing the underlying thought. | Sharpen the sentence. Preserve the meaning. |
-| [**Book Studio**](./skills/book-studio/README.md) · [ZIP](./downloads/book-studio.zip?raw=1) | A nonfiction book needs a source audit, chapter plan, pilot, or revision. | Build each chapter around a distinct contribution supported by evidence. |
+| [**Book Studio**](./skills/book-studio/README.md) · [ZIP](./downloads/book-studio.zip?raw=1) | You want to adapt a classical author's work for general readers. | Reorganize the author's ideas by theme and let readers discover them through cases. |
 
 ## A useful sequence
 

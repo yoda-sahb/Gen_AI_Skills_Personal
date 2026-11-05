@@ -1,46 +1,32 @@
 ---
 name: book-studio
-description: Develop source-grounded narrative nonfiction through research, argument mapping, book architecture, drafting, revision, and release. Use when the user invokes Book Studio or the Book Skill, starts or continues a nonfiction book, adapts scholarly work, commissions a research audit or pilot chapter, or revises a manuscript. Support both author-led adaptations and original multi-source books. Exclude isolated wording edits and standalone file conversion unless part of book development.
+description: Adapt a classical author's work into thematic, case-driven narrative nonfiction. Apply the same method to a later scholar explicitly selected for a book. Use when asked to use Book Studio or the Book Skill, reconstruct an author's argument, reorganize their writings into themes, or plan, draft, revise, or release that adaptation. Exclude general multi-author synthesis and standalone copyediting or file conversion.
 ---
 
 # Book Studio
 
-Keep the method reusable. Store book facts, sources, editorial decisions, special exceptions, and progress in that book's files. Never add them to this skill during ordinary book work. Change the skill only when the user requests a reusable workflow change.
+Build an original book around one author's ideas. Understand the reasoning in its original setting, reorganize it around questions that matter to the reader, and let readers discover the ideas through narrative.
 
-## Establish scope
+## Establish the book and task
 
-1. Identify the book from the current request, then its current brief or portfolio entry. Keep studio-wide tasks at studio scope. If the target remains ambiguous, ask before changing a manuscript.
-2. Read the active brief and only the source records, manuscript passages, and decisions needed for this task. Use chat history as a retrieval lead; verify canonical content from files. Do not load another book's research by default.
-3. Establish the mode: **author-led adaptation** preserves an identified author's argument; **original synthesis** develops an explicit editorial thesis across sources. Establish the requested stage: research, architecture, pilot, drafting, revision, or release. Infer routine choices from supplied material; ask only about consequential gaps.
-4. Resume from recorded work. For a narrow edit, perform the relevant checks without restarting the entire development process. Honor an explicit request to start from scratch while preserving earlier versions.
+Resolve the active book from the request and its brief or portfolio entry. Read only its relevant sources and decisions. Keep each book's evidence, editorial choices, and versions in that book's records. For a fresh start, use independently verified source material for the new plan and prose. Keep prior drafts in the archive. Match the work to the requested stage. Carry out narrow revisions directly and preserve each claim's certainty, scope, and conditions.
 
-## Load only the needed guidance
+## Reconstruct the author
 
-| Task | Read |
-| --- | --- |
-| Start, resume, or record substantive decisions | [Book state](references/book-state.md) |
-| Inspect sources, reconstruct arguments, or verify claims | [Research](references/research.md) |
-| Design chapters, draft, or revise substantive prose | [Composition](references/composition.md) |
-| Audit a manuscript or produce a release | [Review and release](references/review-release.md) |
+Identify the main work and edition. Read the relevant passages and select other works by the same author where they clarify a question, development, or exception. Record access separately from actual reading. Map the author's central problem, reasoning, key distinctions, objections, and qualifications to exact locators. Identify which claims can support the requested work. When the needed text is unavailable, report the gap, request the passages, and offer a provisional research plan.
 
-Load references for the current work, not every possible later stage. Use the appropriate document, PDF, or presentation capability for requested export formats.
+## Reorganize around themes
 
-## Develop the book
+Group verified claims by the questions they answer, joining passages across source sections or works when they illuminate the same problem. Keep the source-to-theme trail. Whenever you restate a rule in the outline or prose, carry its triggering conditions and material exceptions with it. Order the themes by what the reader must discover to understand the next idea. For each chapter, specify its new insight, source anchors, narrative engine, strongest complication, and consequence. Treat the new arrangement as an editorial choice. Use another thinker only for a named explanatory gap and identify the contribution separately.
 
-For new substantive work, establish sufficient evidence before committing to an argument: scoped source inventory → reading and argument map → thematic architecture → pilot → developed chapters → skeptical review → release. Reuse valid completed work. Apply project-specific approval requirements; never report an approval that has not occurred or invent additional approval stops.
+## Turn themes into narrative
 
-For an author-led adaptation, reconstruct the author's question, context, reasoning, qualifications, objections, and limits from the primary text and selected relevant works. Introduce another thinker only to fill a named gap. For an original synthesis, explain why each source matters and retain disagreements between sources.
+Use the craft implied by “Gladwell-style” requests in an original voice. Start where the reader can notice a puzzle in a specific case, a historical record, or two outcomes that seem inconsistent. Give the first plausible explanation room to make sense. Let a detail, comparison, or counterexample change what the reader thinks is happening. Reveal how the author's idea explains that change and where the explanation stops. Make the implication concrete and carry an unresolved question forward when it advances the book.
 
-Connect each chapter to a distinct contribution and evidence. Use a narrative form that serves the material. Let the reader encounter tension before resolution where useful; complete the underlying research first. Avoid a fixed chapter formula or repeated example standing in for a new argument.
+Vary how chapters create tension and arrive at insight. Use close reading or direct exposition where the text supplies the strongest discovery. Document historical particulars and label hypothetical or composite material. Attribute the source author's reasoning, editorial applications, and outside evidence distinctly. Verify quotations, translations, and consequential claims.
 
-## Enforce evidence and attribution
+## Continue or hand off
 
-- Distinguish primary-author claims, other scholarship, verified facts, editorial inference, and hypothetical illustration in working notes and wherever readers could confuse them.
-- Record what was actually read. A title, URL, contents page, AI summary, or earlier research memo is a lead, not evidence of close reading. Cite a named source and recoverable locator; never invent quotations, editions, pages, studies, scenes, or dialogue.
-- Preserve material disagreements, uncertainty, and domain boundaries. Preserve claims' certainty, scope, and conditions when editing. Do not turn an analogy into a legal, religious, or clinical ruling or attribute a hidden motive as fact.
-- If required sources are missing, ask for them and complete a truthful gap report or provisional plan. Do not claim fidelity or draft unsupported source-based conclusions.
-- Write original prose, preserve appropriate credit, and flag material rights questions before release. Keep private information out of public examples unless explicitly authorized.
+Use completed work and honor the book's approval requirements. Move from supported architecture to a representative pilot, developed chapters, skeptical review, and release as authorized. Preserve the accepted baseline and record material changes, unresolved evidence, and the next step.
 
-## Preserve continuity
-
-Save substantive evidence, decisions, and handoff state in durable book files; update only affected records. Preserve the approved baseline and distinguish proposed revisions from accepted versions. Report what was produced, what was verified, and material unresolved issues. Label an outline, pilot, abridgment, synthesis, or full manuscript accurately.
+Read the relevant reference only. Use [research](references/research.md) for corpus and claim work, [composition](references/composition.md) for architecture and prose, [book state](references/book-state.md) for setup and handoffs, and [review and release](references/review-release.md) for audits and production.

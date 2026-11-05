@@ -1,34 +1,24 @@
-# Composition
+# Thematic architecture and narrative
 
-## Build the architecture
+## Design the adaptation
 
-State the book's governing question and the change in understanding the whole book should produce. Construct a thematic sequence from the argument map; do not merely rename the source's contents or arrange attractive anecdotes and retrofit citations.
+1. State the governing question and the change in understanding the book should produce.
+2. Read the argument map across the author's works. Group claims, objections, and exceptions that answer the same question, even when the passages are far apart. Give each theme a claim the book can establish. Record the exact passages and any interpretive step required to connect them.
+3. Put chapters in the order of discovery. Identify the assumption a chapter tests, what the reader learns, and which later idea depends on it. Keep source chronology when it explains the development of an idea. Test the sequence against the source contents to see where the new organization adds understanding.
+4. Give each chapter a brief working record with its new insight, source anchors, narrative engine, strongest objection or boundary, consequence, and place in the whole book. Combine chapters that establish the same result.
 
-Before drafting a chapter, record a compact chapter contract:
+## Draft the discovery
 
-- **New insight:** What does this chapter establish that earlier chapters do not?
-- **Source anchors:** Which verified claims and passages support it?
-- **Narrative engine:** What documented problem, case over time, genuine choice, disagreement, reversal, counterexample, or exposition carries it?
-- **Strongest objection and limits:** What resists the claim, and where does it stop applying?
-- **Consequence:** What changes in understanding, judgment, or action?
-- **Whole-book connection:** Why does this chapter belong here?
+Begin with the most revealing concrete detail. Select observations the reader can use to form an initial explanation. A good opening makes it possible to notice when the explanation falls short. Give the turning detail enough space to do that work before naming the author's concept. Explain the concept and its qualifications in plain language, then return to the case to show what now makes sense. Earn each turn from evidence and preserve ambiguity where the sources leave it.
 
-Do not impose those headings on the finished prose. Combine chapters whose contributions duplicate one another.
+Select an engine that fits the chapter. In a historical episode, a decision or outcome can expose a problem. In a comparison, a change in one relevant condition can explain divergent results. In a textual dispute, competing readings can be tested against the same passage. In a close reading, a distinction in the wording can change the question. Compare adjacent chapters by how they generate insight. Vary paragraph rhythm, entry points, and the moment of explanation. Use an original narrative voice.
 
-Compare neighboring narrative engines by how they generate tension or reasoning, not their labels. When variety is required, two versions of the same exposition or decision sequence do not supply it. Choose a substantively different mechanism or explain why a deliberate recurrence serves the argument.
+Source documented scenes and their particulars. Mark hypothetical or composite scenes clearly. Never invent historical dialogue, thoughts, interviews, or events. Use a modern example to make a source distinction visible. State when applying the distinction requires an editorial inference. Introduce modern scholarship only for a specific gap and keep its domain and evidence separate.
 
-## Draft with fidelity
+## Check the prose
 
-Write a representative pilot after sufficient research and architecture. Continue under the project's actual approval requirements. Develop full chapters through sustained explanation, evidence, alternatives, and consequences; do not equate a short sketch with a completed chapter. Set scope by the intended reader and book, not a universal chapter count or word quota.
-
-Use documented scenes with provenance. Label hypothetical or composite cases. Never invent historical dialogue, private thoughts, interviews, or events. Ensure an illustration demonstrates an established mechanism rather than supplying evidence for it. Keep an adaptation's explanatory center in the source author's reasoning; label contemporary extensions.
-
-Vary openings, pacing, paragraph structure, and resolution according to the material. Permit direct exposition when stronger than a scene. Avoid a repeated anecdote-to-moral formula, rhetorical suspense unsupported by evidence, and imitation of a living author's distinctive prose. Carry uncertainty without burying the argument under caveats.
-
-## Revise substantively
-
-Compare the chapter with its contract, earlier chapters, and relevant scene-ledger entries. Check duplicate scenarios, the same moral in new wording, repeated rhetorical patterns, and claims without additional evidence. Retain recurrence only for a deliberate return that changes the reader's understanding; record that purpose.
-
-Separate authorial claims from editorial applications and specialist rulings. Preserve competing interpretations that matter. Source empirical claims to their actual findings and limits; never diagnose a person through a spiritual analogy.
-
-For a narrow revision, use the surrounding passage and relevant evidence rather than rerunning a whole-book research program. Preserve the original claim's logical strength: possibilities remain possibilities, conditional findings retain their conditions, associations do not become causes, and scope does not widen. Check revised sentences against the original qualifications before delivering. Preserve the baseline and record only material changes or unresolved checks. An editorial preference is not a new scholarly fact.
+- Read the opening without the explanation. Check that the details create a specific question with a plausible initial answer.
+- Read the turn and return to the case. Identify the detail that changed the explanation and the exact passage that supports the author's reasoning.
+- Compare the argument, narrative engine, and consequence with nearby chapters. Use deliberate recurrence only when returning to a case changes its meaning.
+- Check that claims retain their certainty, scope, and conditions. Preserve the strongest qualification and meaningful disagreements.
+- Use the relevant surrounding text and source for a narrow edit. Record material changes and preserve the approved baseline.
