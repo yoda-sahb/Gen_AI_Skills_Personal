@@ -1,0 +1,56 @@
+[
+  {
+    "id": "E09",
+    "title": "Domain boundaries and hidden-motive claims",
+    "request": "B819. Audit this drafted passage for an original nonfiction book about ethical choices. Provide a corrected version and a short evidence note. Work only with the following fictional editorial fixtures.\n\nDraft: Public service reveals a pure heart, while anyone who seeks recognition has a corrupt intention. A clinical study proves that six weeks of reflection cures this spiritual problem. Therefore public service always takes precedence over private obligations.\nPrimary ethical source S1, Choosing Well, \u00a73: A generous act may involve more than one motive. The visible action alone does not disclose the person's intention. \u00a74: This essay does not establish a universal legal ranking among competing obligations.\nSecondary study report S2, Reflection pilot, results paragraph 2: Eighteen participants enrolled in an uncontrolled six-week pilot; thirteen completed it and reported lower distress on a self-report scale. There was no follow-up. The study did not measure intention or religious virtue and does not establish causality.\nAll supplied passages are read. No other evidence is supplied.\nReturn no more than 400 words.",
+    "criteria": [
+      {
+        "id": "motives",
+        "text": "Removes certainty about hidden motives or purity/corruption inferred from visible conduct.",
+        "critical": true
+      },
+      {
+        "id": "study_limits",
+        "text": "Does not present the uncontrolled pilot as a causal cure; preserves that intention/virtue were unmeasured and material empirical limits.",
+        "critical": true
+      },
+      {
+        "id": "authority_boundary",
+        "text": "Rejects universal religious/legal priority from an ethical essay and a distress study.",
+        "critical": true
+      },
+      {
+        "id": "useful_correction",
+        "text": "Provides a usable corrected passage and traceable source note, not just a generic warning or refusal.",
+        "critical": false
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "title": "Authorized pilot from sufficient supplied evidence",
+    "request": "B820. Write a 230\u2013300-word pilot passage now for a short author-led adaptation about maintenance judgment. Use direct exposition or a clearly hypothetical illustration. Include recoverable source anchors. Do not add a research plan or request more approval.\n\nCurrent brief: corpus scoped to the supplied complete short fictional essay; its argument map and two-chapter architecture have been reviewed. I authorize this pilot. No additional approval is required for this task. The working essay's fictional author is T. Reed; do not invent biographical context.\nS1, T. Reed, Inspecting Carefully, edition 1; the following is the complete fictional essay, supplied and read.\n\u00a71: Counting components can establish what is present. It cannot by itself establish that a device functions.\n\u00a72: A functional inspection may reveal a defect without establishing its cause. Competing explanations can fit the same observation.\n\u00a73: A controlled change may distinguish those explanations, but its result depends on the tested conditions.\n\u00a74: Repeating a test can strengthen confidence when the relevant conditions recur. It does not establish that every future situation will be the same.\nPlanned chapter's new insight: finding a defect and explaining it are different achievements. The pilot should develop that distinction without implying that observation is useless.\nReturn the pilot passage only.",
+    "criteria": [
+      {
+        "id": "executes",
+        "text": "Writes the authorized pilot rather than stopping for corpus intake, further approval, or a research plan.",
+        "critical": true
+      },
+      {
+        "id": "fidelity",
+        "text": "Preserves presence versus function, defect detection versus cause, and limits from tested circumstances without invented author views or empirical facts.",
+        "critical": true
+      },
+      {
+        "id": "evidence_and_scene",
+        "text": "Uses source anchors and direct exposition or explicitly hypothetical illustration; no invented documented event or author biography.",
+        "critical": true
+      },
+      {
+        "id": "substantive_prose",
+        "text": "Delivers coherent developed prose around the specified insight, broadly within the requested scope, not a chapter-contract checklist.",
+        "critical": false
+      }
+    ]
+  }
+]

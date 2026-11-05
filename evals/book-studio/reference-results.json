@@ -1,0 +1,902 @@
+{
+  "date": "2026-11-05",
+  "reasoning_effort": "medium",
+  "conditions": {
+    "initial": "Initial installed skill: eight cases per model plus repeats of E01 and E05, 40 runs.",
+    "comparison": "No explicit skill loading: E01 and E03 for each model, 8 runs. Shared platform instructions remain.",
+    "revised": "Revised skill: E03 and E06 retests plus previously unused E09 and E10, 16 runs. The other six cases were not rerun on the revised snapshot."
+  },
+  "revised_skill_sha256": {
+    "SKILL.md": "cb99cb4e4ddcc15f09be6677bede2f41aa931a786fa3adbddd16e812145c3ede",
+    "references/review-release.md": "1090eeef2f829c3113e3e53e729e0cb8b635f2b026889bdb644e267c47abaa7c",
+    "references/book-state.md": "7aa627da94150bd406f78f4b1cd907b195ffbfa0970ccc6aa3248941da3705be",
+    "references/composition.md": "26881c062a0cb52f4ad4db2aded56391b6e03dc3a9171637f791314d2d712c67",
+    "references/research.md": "321e2096810d5197f99a5e8c9881b5f137276b9088f90412254bf84b685a485e",
+    "agents/openai.yaml": "03900d201f498bdce1afe7be1f4eab94dea8978637f0d4d8e62ae3f4efd81580",
+    "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee"
+  },
+  "summary": {
+    "initial": {
+      "gpt-6.1-sol": {
+        "runs": 10,
+        "passed": 10,
+        "editorial_passed": 10,
+        "format_failed_runs": 0,
+        "points": 80,
+        "critical_failed_runs": 0
+      },
+      "gpt-6-luna": {
+        "runs": 10,
+        "passed": 8,
+        "editorial_passed": 8,
+        "format_failed_runs": 0,
+        "points": 78,
+        "critical_failed_runs": 2
+      },
+      "gpt-6.1-terra": {
+        "runs": 10,
+        "passed": 9,
+        "editorial_passed": 10,
+        "format_failed_runs": 1,
+        "points": 80,
+        "critical_failed_runs": 0
+      },
+      "gpt-6-astra": {
+        "runs": 10,
+        "passed": 10,
+        "editorial_passed": 10,
+        "format_failed_runs": 0,
+        "points": 80,
+        "critical_failed_runs": 0
+      }
+    },
+    "comparison": {
+      "gpt-6-astra": {
+        "runs": 2,
+        "passed": 2,
+        "editorial_passed": 2,
+        "format_failed_runs": 0,
+        "points": 16,
+        "critical_failed_runs": 0
+      },
+      "gpt-6.1-sol": {
+        "runs": 2,
+        "passed": 2,
+        "editorial_passed": 2,
+        "format_failed_runs": 0,
+        "points": 16,
+        "critical_failed_runs": 0
+      },
+      "gpt-6.1-terra": {
+        "runs": 2,
+        "passed": 2,
+        "editorial_passed": 2,
+        "format_failed_runs": 0,
+        "points": 16,
+        "critical_failed_runs": 0
+      },
+      "gpt-6-luna": {
+        "runs": 2,
+        "passed": 1,
+        "editorial_passed": 1,
+        "format_failed_runs": 0,
+        "points": 15,
+        "critical_failed_runs": 1
+      }
+    },
+    "revised": {
+      "gpt-6.1-sol": {
+        "runs": 4,
+        "passed": 4,
+        "editorial_passed": 4,
+        "format_failed_runs": 0,
+        "points": 32,
+        "critical_failed_runs": 0
+      },
+      "gpt-6-luna": {
+        "runs": 4,
+        "passed": 2,
+        "editorial_passed": 2,
+        "format_failed_runs": 0,
+        "points": 29,
+        "critical_failed_runs": 2
+      },
+      "gpt-6-astra": {
+        "runs": 4,
+        "passed": 4,
+        "editorial_passed": 4,
+        "format_failed_runs": 0,
+        "points": 32,
+        "critical_failed_runs": 0
+      },
+      "gpt-6.1-terra": {
+        "runs": 4,
+        "passed": 4,
+        "editorial_passed": 4,
+        "format_failed_runs": 0,
+        "points": 32,
+        "critical_failed_runs": 0
+      }
+    }
+  },
+  "runs": [
+    {
+      "condition": "comparison",
+      "model": "gpt-6-astra",
+      "case": "E01",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 287,
+      "word_limit_met": true
+    },
+    {
+      "condition": "comparison",
+      "model": "gpt-6-astra",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 47,
+      "word_limit_met": true
+    },
+    {
+      "condition": "comparison",
+      "model": "gpt-6-luna",
+      "case": "E01",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 211,
+      "word_limit_met": true
+    },
+    {
+      "condition": "comparison",
+      "model": "gpt-6-luna",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 7,
+      "editorial_pass": false,
+      "pass": false,
+      "critical_failures": [
+        "meaning"
+      ],
+      "word_count": 51,
+      "word_limit_met": true
+    },
+    {
+      "condition": "comparison",
+      "model": "gpt-6.1-sol",
+      "case": "E01",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 281,
+      "word_limit_met": true
+    },
+    {
+      "condition": "comparison",
+      "model": "gpt-6.1-sol",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 46,
+      "word_limit_met": true
+    },
+    {
+      "condition": "comparison",
+      "model": "gpt-6.1-terra",
+      "case": "E01",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 162,
+      "word_limit_met": true
+    },
+    {
+      "condition": "comparison",
+      "model": "gpt-6.1-terra",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 51,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E01",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 320,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E01",
+      "repeat": 2,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 320,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E02",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 591,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 47,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E04",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 421,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E05",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 362,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E05",
+      "repeat": 2,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 351,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E06",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 441,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E07",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 339,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-astra",
+      "case": "E08",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 76,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E01",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 201,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E01",
+      "repeat": 2,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 214,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E02",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 639,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 7,
+      "editorial_pass": false,
+      "pass": false,
+      "critical_failures": [
+        "meaning"
+      ],
+      "word_count": 50,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E04",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 445,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E05",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 333,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E05",
+      "repeat": 2,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 317,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E06",
+      "repeat": 1,
+      "editorial_score": 7,
+      "editorial_pass": false,
+      "pass": false,
+      "critical_failures": [
+        "narrative_diversity"
+      ],
+      "word_count": 449,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E07",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 249,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6-luna",
+      "case": "E08",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 98,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E01",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 314,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E01",
+      "repeat": 2,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 333,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E02",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 605,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 47,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E04",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 401,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E05",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 341,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E05",
+      "repeat": 2,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 331,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E06",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 449,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E07",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 317,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-sol",
+      "case": "E08",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 63,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E01",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 305,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E01",
+      "repeat": 2,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 309,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E02",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 626,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 46,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E04",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": false,
+      "critical_failures": [],
+      "word_count": 502,
+      "word_limit_met": false
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E05",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 290,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E05",
+      "repeat": 2,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 268,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E06",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 458,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E07",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 311,
+      "word_limit_met": true
+    },
+    {
+      "condition": "initial",
+      "model": "gpt-6.1-terra",
+      "case": "E08",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 50,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6-astra",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 52,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6-astra",
+      "case": "E06",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 452,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6-astra",
+      "case": "E09",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 274,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6-astra",
+      "case": "E10",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 270,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6-luna",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 7,
+      "editorial_pass": false,
+      "pass": false,
+      "critical_failures": [
+        "meaning"
+      ],
+      "word_count": 57,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6-luna",
+      "case": "E06",
+      "repeat": 1,
+      "editorial_score": 6,
+      "editorial_pass": false,
+      "pass": false,
+      "critical_failures": [
+        "narrative_diversity"
+      ],
+      "word_count": 435,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6-luna",
+      "case": "E09",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 186,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6-luna",
+      "case": "E10",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 285,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6.1-sol",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 52,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6.1-sol",
+      "case": "E06",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 461,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6.1-sol",
+      "case": "E09",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 308,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6.1-sol",
+      "case": "E10",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 266,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6.1-terra",
+      "case": "E03",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 53,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6.1-terra",
+      "case": "E06",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 439,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6.1-terra",
+      "case": "E09",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 198,
+      "word_limit_met": true
+    },
+    {
+      "condition": "revised",
+      "model": "gpt-6.1-terra",
+      "case": "E10",
+      "repeat": 1,
+      "editorial_score": 8,
+      "editorial_pass": true,
+      "pass": true,
+      "critical_failures": [],
+      "word_count": 279,
+      "word_limit_met": true
+    }
+  ]
+}

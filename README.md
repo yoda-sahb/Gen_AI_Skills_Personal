@@ -22,6 +22,7 @@ Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems. 
 | [**Executive Whitepaper Writer**](./skills/executive-whitepaper-writer/README.md) | Research and analysis need to become an evidence-based executive paper. | Build one clear argument. |
 | [**Storytelling**](./skills/storytelling/README.md) | A strong idea is trapped in a flat, framework-first, or over-explained story. | Make the audience see the idea before naming it. |
 | [**Wordsmith**](./skills/wordsmith/README.md) | The wording needs to improve without changing the underlying thought. | Sharpen the sentence. Preserve the meaning. |
+| [**Book Studio**](./skills/book-studio/README.md) · [ZIP](./downloads/book-studio.zip?raw=1) | A nonfiction book needs a source audit, chapter plan, pilot, or revision. | Build each chapter around a distinct contribution supported by evidence. |
 
 ## A useful sequence
 
@@ -58,7 +59,7 @@ For compatible Agent Skills environments:
 npx skills add yoda-sahb/Gen_AI_Skills_Personal --skill samurai-3
 ```
 
-Replace `samurai-3` with `product-value-strategy`, `root-to-one-ceo-brief`, `executive-whitepaper-writer`, `storytelling`, or `wordsmith`. Each skill uses one shared `SKILL.md`.
+Replace `samurai-3` with `product-value-strategy`, `root-to-one-ceo-brief`, `executive-whitepaper-writer`, `storytelling`, `wordsmith`, or `book-studio`. Each skill uses one shared `SKILL.md`.
 
 ## Attribution and reuse
 

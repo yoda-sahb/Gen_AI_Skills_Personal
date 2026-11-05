@@ -1,0 +1,34 @@
+{
+  "audit_timing": "Deterministic word-limit audit added after blind editorial scoring; original rubric scores and initial_results.json retained unchanged.",
+  "word_count_definition": "Unicode alphanumeric word tokens, allowing internal apostrophes/hyphens; Markdown table pipes and alignment marks do not count as words.",
+  "cases": {
+    "E01": {
+      "max_words": 350
+    },
+    "E02": {
+      "max_words": 650
+    },
+    "E04": {
+      "max_words": 450
+    },
+    "E05": {
+      "max_words": 450
+    },
+    "E06": {
+      "max_words": 500
+    },
+    "E07": {
+      "max_words": 350
+    },
+    "E08": {
+      "max_words": 150
+    },
+    "E09": {
+      "max_words": 400
+    },
+    "E10": {
+      "min_words": 230,
+      "max_words": 300
+    }
+  }
+}
